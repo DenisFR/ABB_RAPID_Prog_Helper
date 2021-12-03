@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Aide à la programmation RAPID d'ABB</value>
+  </data>
+  <data name="btReoDown.ToolTip" xml:space="preserve">
+    <value>Transférer Rotation vers Angle</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.Text" xml:space="preserve">
+    <value>&lt;&lt; Copier sur Modification</value>
+  </data>
+  <data name="cmdReorientGetFromModif.Text" xml:space="preserve">
+    <value>&gt;&gt; Récupérer de Modification</value>
+  </data>
+  <data name="btReoUp.Text" xml:space="preserve">
+    <value>▲</value>
+  </data>
+  <data name="btReoDown.Text" xml:space="preserve">
+    <value>▼</value>
+  </data>
+  <data name="txtReorientRY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientRX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalZ.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCf1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifZ.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCf4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCf6.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCfx.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientRZ.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtModifQ1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="frmReorientEuler.Text" xml:space="preserve">
+    <value>Angles Euler</value>
+  </data>
+  <data name="cmnuLBPointsSelAucun.Text" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="cmnuLBPointsColler.ToolTipText" xml:space="preserve">
+    <value>Colle le presse papier dans la liste</value>
+  </data>
+  <data name="cmnuLBPointsColler.Text" xml:space="preserve">
+    <value>Coller</value>
+  </data>
+  <data name="fraRobConf.Text" xml:space="preserve">
+    <value>Configurations Robot</value>
+  </data>
+  <data name="cmnuLBPointsCopier.ToolTipText" xml:space="preserve">
+    <value>Copie la liste dans le presse papier</value>
+  </data>
+  <data name="cmnuLBPointsSelRef.ToolTipText" xml:space="preserve">
+    <value>Copie la sélection comme point de référence</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.ToolTip" xml:space="preserve">
+    <value>Copie les valeurs de quaternions sur la feuille de Modification</value>
+  </data>
+  <data name="cmnuLBPointsCopier.Text" xml:space="preserve">
+    <value>Copier</value>
+  </data>
+  <data name="chkDecalX.Text" xml:space="preserve">
+    <value>Décaler X</value>
+  </data>
+  <data name="chkDecalY.Text" xml:space="preserve">
+    <value>Décaler Y</value>
+  </data>
+  <data name="chkDecalZ.Text" xml:space="preserve">
+    <value>Décaler Z</value>
+  </data>
+  <data name="cmdDecalOK.Text" xml:space="preserve">
+    <value>Décaler
+V</value>
+  </data>
+  <data name="pagDecod.Text" xml:space="preserve">
+    <value>Décodage</value>
+  </data>
+  <data name="cmdDecod.Text" xml:space="preserve">
+    <value>Décodage</value>
+  </data>
+  <data name="cmnuLBPointsEffacer.ToolTipText" xml:space="preserve">
+    <value>Efface la liste</value>
+  </data>
+  <data name="cmnuLBPointsEffacerTout.ToolTipText" xml:space="preserve">
+    <value>Efface l'ensemble des contrôles</value>
+  </data>
+  <data name="cmnuLBPointsEffacer.Text" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="cmnuLBPointsEffacerTout.Text" xml:space="preserve">
+    <value>Effacer tout</value>
+  </data>
+  <data name="pagEncod.Text" xml:space="preserve">
+    <value>Encodage</value>
+  </data>
+  <data name="cmdEncod.Text" xml:space="preserve">
+    <value>Encodage</value>
+  </data>
+  <data name="cbEncodeVers.Items2" xml:space="preserve">
+    <value>FC=252=ü</value>
+  </data>
+  <data name="cbEncodeVers.Items1" xml:space="preserve">
+    <value>FD=253=ý</value>
+  </data>
+  <data name="cbEncodeVers.Items" xml:space="preserve">
+    <value>FE=254=þ</value>
+  </data>
+  <data name="cmnuLBPointsSelInverser.Text" xml:space="preserve">
+    <value>Inverser</value>
+  </data>
+  <data name="pagModif.Text" xml:space="preserve">
+    <value>Modification</value>
+  </data>
+  <data name="chkModifCf1.Text" xml:space="preserve">
+    <value>Modifier cf1</value>
+  </data>
+  <data name="chkModifCf4.Text" xml:space="preserve">
+    <value>Modifier cf4</value>
+  </data>
+  <data name="chkModifCf6.Text" xml:space="preserve">
+    <value>Modifier cf6</value>
+  </data>
+  <data name="chkModifCfx.Text" xml:space="preserve">
+    <value>Modifier cfx</value>
+  </data>
+  <data name="chkModifQ1.Text" xml:space="preserve">
+    <value>Modifier Q1</value>
+  </data>
+  <data name="chkModifQ2.Text" xml:space="preserve">
+    <value>Modifier Q2</value>
+  </data>
+  <data name="chkModifQ3.Text" xml:space="preserve">
+    <value>Modifier Q3</value>
+  </data>
+  <data name="chkModifQ4.Text" xml:space="preserve">
+    <value>Modifier Q4</value>
+  </data>
+  <data name="chkModifX.Text" xml:space="preserve">
+    <value>Modifier X</value>
+  </data>
+  <data name="chkModifY.Text" xml:space="preserve">
+    <value>Modifier Y</value>
+  </data>
+  <data name="chkModifZ.Text" xml:space="preserve">
+    <value>Modifier Z</value>
+  </data>
+  <data name="cmdModifOK.Text" xml:space="preserve">
+    <value>Modifier
+V</value>
+  </data>
+  <data name="pagDecal.Text" xml:space="preserve">
+    <value>Décalage</value>
+  </data>
+  <data name="cmdDecod.ToolTip" xml:space="preserve">
+    <value>Permet de décoder un fichier RAPID.
+Cliquez avec Ctrl pour décoder un répertoire.
+Déposer le fichier ou répertoires à décoder.</value>
+  </data>
+  <data name="pagDecod.ToolTipText" xml:space="preserve">
+    <value>Permet de décoder un fichier.</value>
+  </data>
+  <data name="pagReorient.ToolTipText" xml:space="preserve">
+    <value>Permet de définir une orientation en degrés vers ou depuis des quaternions</value>
+  </data>
+  <data name="pagModif.ToolTipText" xml:space="preserve">
+    <value>Permet de modifier les points sélectionnés</value>
+  </data>
+  <data name="pagDecal.ToolTipText" xml:space="preserve">
+    <value>Permet d'éffectuer un décalage sur les points sélectionnés</value>
+  </data>
+  <data name="cmdEncod.ToolTip" xml:space="preserve">
+    <value>Permet d'encoder un fichier RAPID.
+Déposer le fichier à encoder.</value>
+  </data>
+  <data name="lblReorientQ1.Text" xml:space="preserve">
+    <value>Q1:</value>
+  </data>
+  <data name="lblReorientQ2.Text" xml:space="preserve">
+    <value>Q2:</value>
+  </data>
+  <data name="lblReorientQ3.Text" xml:space="preserve">
+    <value>Q3:</value>
+  </data>
+  <data name="lblReorientQ4.Text" xml:space="preserve">
+    <value>Q4:</value>
+  </data>
+  <data name="cmdReorientGetFromModif.ToolTip" xml:space="preserve">
+    <value>Récupère les valeurs des quaternions de la page Modification</value>
+  </data>
+  <data name="pagReorient.Text" xml:space="preserve">
+    <value>Réorientation</value>
+  </data>
+  <data name="fraRot.Text" xml:space="preserve">
+    <value>Rotations</value>
+  </data>
+  <data name="frmReorientQuat.Text" xml:space="preserve">
+    <value>Rotations</value>
+  </data>
+  <data name="lblReorientRX.Text" xml:space="preserve">
+    <value>RX:</value>
+  </data>
+  <data name="lblReorientRY.Text" xml:space="preserve">
+    <value>RY:</value>
+  </data>
+  <data name="lblReorientRZ.Text" xml:space="preserve">
+    <value>RZ:</value>
+  </data>
+  <data name="cmnuLBPointsSelRef.Text" xml:space="preserve">
+    <value>Sélection en référence</value>
+  </data>
+  <data name="cmnuLBPointsSel.Text" xml:space="preserve">
+    <value>Sélections</value>
+  </data>
+  <data name="cmnuLBPointsSelTout.Text" xml:space="preserve">
+    <value>Tout</value>
+  </data>
+  <data name="btReoUp.ToolTip" xml:space="preserve">
+    <value>Transférer Angle vers Rotation</value>
+  </data>
+  <data name="fraDecalTrans.Text" xml:space="preserve">
+    <value>Translations</value>
+  </data>
+  <data name="fraTrans.Text" xml:space="preserve">
+    <value>Translations</value>
+  </data>
+  <data name="txtReorientRX.ToolTip" xml:space="preserve">
+    <value>Valeur Angle RX</value>
+  </data>
+  <data name="txtReorientRY.ToolTip" xml:space="preserve">
+    <value>Valeur Angle RY</value>
+  </data>
+  <data name="txtReorientRZ.ToolTip" xml:space="preserve">
+    <value>Valeur Angle RZ</value>
+  </data>
+  <data name="lblReorientOriValue.Text" xml:space="preserve">
+    <value>Valeur de l'orientation référence</value>
+  </data>
+  <data name="txtReorientOriValue.ToolTip" xml:space="preserve">
+    <value>Valeur de l'orientation référence</value>
+  </data>
+  <data name="txtDecalX.ToolTip" xml:space="preserve">
+    <value>Valeur Décaler X</value>
+  </data>
+  <data name="txtDecalY.ToolTip" xml:space="preserve">
+    <value>Valeur Décaler Y</value>
+  </data>
+  <data name="txtDecalZ.ToolTip" xml:space="preserve">
+    <value>Valeur Décaler Z</value>
+  </data>
+  <data name="txtModifCf1.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier cf1</value>
+  </data>
+  <data name="txtModifCf4.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier cf4</value>
+  </data>
+  <data name="txtModifCf6.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier cf6</value>
+  </data>
+  <data name="txtModifCfx.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier cfx</value>
+  </data>
+  <data name="txtModifQ1.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier Q1</value>
+  </data>
+  <data name="txtModifQ2.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier Q2</value>
+  </data>
+  <data name="txtModifQ3.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier Q3</value>
+  </data>
+  <data name="txtModifQ4.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier Q4</value>
+  </data>
+  <data name="txtModifX.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier X</value>
+  </data>
+  <data name="txtModifY.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier Y</value>
+  </data>
+  <data name="txtModifZ.ToolTip" xml:space="preserve">
+    <value>Valeur Modifier Z</value>
+  </data>
+  <data name="lblRobValue.Text" xml:space="preserve">
+    <value>Valeur Point Référence</value>
+  </data>
+  <data name="txtRobValue.ToolTip" xml:space="preserve">
+    <value>Valeur Point Référence</value>
+  </data>
+  <data name="txtReorientQ1.ToolTip" xml:space="preserve">
+    <value>Valeur Rotation Q1</value>
+  </data>
+  <data name="txtReorientQ2.ToolTip" xml:space="preserve">
+    <value>Valeur Rotation Q2</value>
+  </data>
+  <data name="txtReorientQ3.ToolTip" xml:space="preserve">
+    <value>Valeur Rotation Q3</value>
+  </data>
+  <data name="txtReorientQ4.ToolTip" xml:space="preserve">
+    <value>Valeur Rotation Q4</value>
+  </data>
+  <data name="cbEncodeVers.ToolTip" xml:space="preserve">
+    <value>Version d'encodage. Détermine le premier octet du fichier.</value>
+  </data>
+  <data name="lblEncodeVers.Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value>Aide à la programmation RAPID d'ABB</value>
+  </data>
+  <data name="chkDecalX.ToolTip" xml:space="preserve">
+    <value>Décaler X</value>
+  </data>
+  <data name="chkDecalY.ToolTip" xml:space="preserve">
+    <value>Décaler Y</value>
+  </data>
+  <data name="chkDecalZ.ToolTip" xml:space="preserve">
+    <value>Décaler Z</value>
+  </data>
+  <data name="chkModifCf1.ToolTip" xml:space="preserve">
+    <value>Modifier cf1</value>
+  </data>
+  <data name="chkModifCf4.ToolTip" xml:space="preserve">
+    <value>Modifier cf4</value>
+  </data>
+  <data name="chkModifCf6.ToolTip" xml:space="preserve">
+    <value>Modifier cf6</value>
+  </data>
+  <data name="chkModifCfx.ToolTip" xml:space="preserve">
+    <value>Modifier cfx</value>
+  </data>
+  <data name="chkModifQ1.ToolTip" xml:space="preserve">
+    <value>Modifier Q1</value>
+  </data>
+  <data name="chkModifQ2.ToolTip" xml:space="preserve">
+    <value>Modifier Q2</value>
+  </data>
+  <data name="chkModifQ3.ToolTip" xml:space="preserve">
+    <value>Modifier Q3</value>
+  </data>
+  <data name="chkModifQ4.ToolTip" xml:space="preserve">
+    <value>Modifier Q4</value>
+  </data>
+  <data name="chkModifX.ToolTip" xml:space="preserve">
+    <value>Modifier X</value>
+  </data>
+  <data name="chkModifY.ToolTip" xml:space="preserve">
+    <value>Modifier Y</value>
+  </data>
+  <data name="chkModifZ.ToolTip" xml:space="preserve">
+    <value>Modifier Z</value>
+  </data>
+  <data name="cmdDecalOK.ToolTip" xml:space="preserve">
+    <value>Applique les modification dans la sélection.</value>
+  </data>
+  <data name="cmdModifOK.ToolTip" xml:space="preserve">
+    <value>Applique les modification dans la sélection.</value>
+  </data>
+  <data name="clbPoints.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="imgReorientQuatOK.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagDecod.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagEncod.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mltpChoix.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="frmReorientQuat.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblRobValue.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="cmnuLBPoints.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="fraRobConf.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="fraTrans.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="fraDecalTrans.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientOriValue.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="frmReorientEuler.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientRX.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientRZ.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientRY.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="fraRot.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientQ4.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagDecal.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblEncodeVers.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagReorient.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagModif.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+</root>

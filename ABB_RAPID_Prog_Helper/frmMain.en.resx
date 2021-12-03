@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="pagModif.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagDecal.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagReorient.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagDecod.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagEncod.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mltpChoix.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="cmdModifOK.ToolTip" xml:space="preserve">
+    <value>Applies the changes to the selection.</value>
+  </data>
+  <data name="lblRobValue.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="fraRobConf.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkModifCfx.ToolTip" xml:space="preserve">
+    <value>Modify cfx</value>
+  </data>
+  <data name="chkModifCf6.ToolTip" xml:space="preserve">
+    <value>Modify cf6</value>
+  </data>
+  <data name="chkModifCf4.ToolTip" xml:space="preserve">
+    <value>Modify cf4</value>
+  </data>
+  <data name="chkModifCf1.ToolTip" xml:space="preserve">
+    <value>Modify cf1</value>
+  </data>
+  <data name="fraRot.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkModifQ4.ToolTip" xml:space="preserve">
+    <value>Modify Q4</value>
+  </data>
+  <data name="chkModifQ3.ToolTip" xml:space="preserve">
+    <value>Modify Q3</value>
+  </data>
+  <data name="chkModifQ2.ToolTip" xml:space="preserve">
+    <value>Modify Q2</value>
+  </data>
+  <data name="chkModifQ1.ToolTip" xml:space="preserve">
+    <value>Modify Q1</value>
+  </data>
+  <data name="fraTrans.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkModifZ.ToolTip" xml:space="preserve">
+    <value>Modify Z</value>
+  </data>
+  <data name="chkModifY.ToolTip" xml:space="preserve">
+    <value>Modify Y</value>
+  </data>
+  <data name="chkModifX.ToolTip" xml:space="preserve">
+    <value>Modify X</value>
+  </data>
+  <data name="cmdDecalOK.ToolTip" xml:space="preserve">
+    <value>Applies the changes to the selection.</value>
+  </data>
+  <data name="fraDecalTrans.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkDecalZ.ToolTip" xml:space="preserve">
+    <value>Offset Z</value>
+  </data>
+  <data name="chkDecalY.ToolTip" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="chkDecalX.ToolTip" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="lblReorientOriValue.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="frmReorientEuler.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientRZ.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientRY.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientRX.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="frmReorientQuat.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientQ4.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="imgReorientQuatOK.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblEncodeVers.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="cmnuLBPoints.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="clbPoints.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAPDwAAAEAIABIOgAAFgAAACgAAAA8AAAAeAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////3////+v//8vH///X2///////////3//v/
+        +P/0//v/9v/w//v/9f/4//L/9//z//3/+////v//+vL8///4///4//H/8v/z//H+/P/z////8////+/9
+        +f/x/u7/+P/s//T0///7/v//+//8//T48//7/P////3///////////f/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////6/////T/+P75//3//////v////n+///7
+        ///59///+/P///v0///69///9fb///X9/f/0//X/+f/x//r/8P//9f////b////9+f////L////0////
+        +///+P////T///7y+P//+fX////y////9/////7//fv///T3+//6////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////7/8f////T/+v7y////9////fj/+fP0///8
+        ////9//////d////4v////D////5//3////6////9v///+77+f/6//j/+v/+//X7///u9P//7/L///X2
+        ///6+fv/+vj3///6/////vz///7t////8v////v///3///n8///z/v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////j4////+////ff4////+f/+//j/9v7z//3/
+        9f////L////1///8+f//+v////b///Xw///v8f//5PD//8jZ8/+Ou///e6X+/1p87f83Vtf/M1DR/01q
+        3f9riuf/eZrp/8vP///l6f//+/7////++f/9+PX///7///v+///2/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////T2///9+f////z5/////P/w/f//1u7//+D1
+        ///Y6Pj/xOb//7HO+/+itv3/hZT4/1xp6f9OXPD/RVj7/zBH8P8YUPX/HVf2/xhY7P8NT93/CkjU/wxF
+        1/8LO9f/Ai3Q/zRbxf90luL/y+X///H9///6+fv//Pf4/////v////v/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////T//P////D////u//v///+70///f6T5/3eX
+        //9mfer/JV///y5n//81cf//K2vv/xth3P8dbeL/JoLz/yaI+P87d/n/N3L3/ypn7f8gWuL/IFjd/yxf
+        3f81Z93/O2vb/wM8zf8gVL//gqfh/+X4///9/v///fj1///9+P////n/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////b//v////D////w/+30//+BpfH/LGTp/yRa
+        +/8ZRuv/GWby/yZz8v8ocuL/JG/T/yt22v8reOb/HGzp/xJj6v8jUNX/HEXd/xo77P8cNvX/HjXv/x86
+        2P8kRcD/Kk+x/yNY7v8fTbz/bo/H/97t/f////7///36////+//9/vz/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////j1////+f////z//+bt//9pmPP/E1/t/xtp
+        //8gZv//N1z//zFU6v8ZObr/GTeo/0Bbzv9MZev/L0Xk/xYt3f8jT+r/F0Tb/w49zv8OPsb/DTy8/w04
+        r/8XPK7/I0a0/yJL1v85W7//l67c//T8//////v///j1///+///4/v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////2////+v//9Pz//9vq//+ClO3/b4r9/2qX
+        /v9npPT/X4zn/yU/2f8XKuX/HTva/ypX1/9Jdvv/PGnw/xVHv/8sRfP/M0jf/x8ys/8TJaj/Hi/A/xou
+        tf8oQKD/VnCs/6ulzv+hoMD/2+Dv//T/+f/1/+v//f/w///++f//9///////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////P/8/+7/9//q/+z+9/+svNn/o7bj/529
+        2v+TwMT/h729/4Cm1v9AX6r/G0KG/wAkcf8CKZ3/Qm3y/zdq5P82Vt3/EC6f/wARcf8HHoT/ECia/wYg
+        jP9CXKj/q8by/+Pv///l8f3/7/j8//b6+////v//9vL3///+/v////z/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////v//v/4/+z/+v/m//3/7v/i5N7/4eLg/93i
+        zf/O26//rM6p/73WyP+btKr/k7Kr/2iIrP8rSbL/I03Q/wA5q/8XPLT/DCyV/w0nhf8TKpD/CiOX/wEb
+        jf8ZM43/RVud/7nV5v/q////6vfv///9////9f////T///r6///4//T/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////2///69v////38/////v//9Pz///T8//3x
+        6//x6dL/29Pd/8W9xP/Ly7//yNPD/5uq0f9GWcz/BC62/w5TwP8AKrn/HkHH/zNM0P8fOMT/CCO6/w8r
+        xf8bMr7/EySj/2F8vP/D3Pb/8v/6////+f//9/////X///r+///v//D/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////2////9P////v////7////+f////n////6
+        ///39P3///j///rq+/////7/7vn3/52t4v8wRsj/BC/E/zJ48/8GQNX/Fkba/zBY7f8wWPT/E0Hj/wUz
+        2P8TOtz/JEPg/zhHwf9sfcb/7/z///r/8P////f/9O/w//r////w//j/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////+P///vb////5//r99P/6//z/9P/9//T/
+        ///z/v//+//t//X//v/J2eX/zOv//5W6/v8yWeP/JFj4/xVc6f8eauz/FVbb/xZQ2P8mYez/JWny/w5T
+        3v8AO8f/ADPD/woUnf8aJoz/kp3R//b////9//L////x/+307f/6/f//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////9P/9//P////3//P66//7//L/9f/v//r/
+        /P/6////3vzx/4adyv8lQZX/NWS6/zdy2f8fXOj/OHj//yRs+f8wffz/KGjv/wxF0P8JRc3/JG3t/y15
+        9/8cYOP/GE/a/wAIY/8AA2j/IyiF/7zB+P/l8fX/+//y/+7x6P//+f//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////j////5/P//+/3///Ly8v////j//fvx///7
+        /P//9P//wNj//05c3v8nO+z/NmX//ydv+f8SXuz/D1zo/yNz7v8aWfH/J1v7/x9K7f8cTen/KGf3/xxf
+        6v8UT+H/Ml/8/xxAZv8FFmz/BgeB/1FQsv/m8P//9f/1////+f//7///////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////rsfz/yVi1v8LXP//Jmn//zNq6/8vcfj/Dlrw/xxi9v8nas3/JFfj/zBV8/8OL7r/Ei2z/zFQ
+        6f8aT+X/FGTh/ys8f/8ABTn/CRR2/wwnxf9kifn/5v////r/5P/4+P//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////rsr5/zx77v8dbv//H1/z/x9X1P8mae7/FF/x/x9l9P8bYvn/K2f//zBl+/8PQ63/AzCS/wkv
+        tf8CMs3/D07f/zBKjP9GUHL/HyZl/wwjp/8IKaT/qb/i////+P//9P//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////tdD8/06I8f82f///RX///02A7v9Kiv//Nn39/0N/+/8RYfr/HF3//wU9zP8EPaD/GU2r/xxJ
+        yf8kU+T/K2fp/ydNn/8fLkj/dHqX/xQqk/8MLbj/d4rb///5////9fb/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////2uz//2qX6P9RiPf/f6j//5i8//+Btf//ap///4Co//9suP//Z53//zFW0P88Y83/U3/y/z5s
+        +f9Be/z/OoPf/yJZ0v8AACz/dH+d/xEwjf8aQ9X/S2HR//Dv//////L/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9/v//5iy4f94l9z/nq/g/7HD6P+Yuu//jq7p/6286v+RudX/pbjx/4GJz/+DmeD/aZL1/ytg
+        7f84d///PIft/xxe/f8WOJz/PFWb/ztnzP8PQcn/X3nj/+nx///9/+n/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////4/+35///i7v//8e79//L2+//e9f//4PH///nz/v/x+P////f///zz///m+f//ibry/yFc
+        4f8dW/3/G1zt/xll//9Bbvv/P2bg/y1l1v8ZSrD/uMn//+zz///x/+z/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+vTn//T7///2+v/////7////+P/s////8/3////58v/1+vv///f9///8+P/w//7/hLXt/ydk
+        8P8nYv//Ilvy/y5+9f8vZPr/Nmb//wAnnf9Te7b/9vL///ry8//t//z/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////4//T8///u8f////3z////9f/p/f//7/v/////9P/x/+3//vv2///6///m7///aJHu/xlQ
+        7f8oYv//LWre/y9+zf8ybPv/Fkv5/xVTyf/T8f/////y///69P/o9v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////m///9////9P//9vH///r/+//5/+7/+fnz///3///i/P////f1////+f+HsvH/Elvz/xhh
+        +f8iaOv/H2L//w1l//9Mg+z/o7Tb/+Lj5//1/P//8/3///v+/////vj/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////7///////7+f//+/v///3////+//v//fr2/////P//9f3/+v/3/4mk5/8bVer/EGnz/xNd
+        8f8pXv//O330/xpi6/90ofj/1+L////9/P/5/v3/9P3///v+//////v/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////n///z9+/////H////1///7////+v/////+////9P/9/P//gJ/q/w5Iyf8WVur/IVz4/wlM
+        5P8mcfb/Nn39/0p83P+sxv//+vv/////+f/4+fX/9/3///v+///++vn/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+vz///v9/f////f////1//v38v///v//+P3//+Tu+P92pPH/BD3W/xZS5P84Xs7/IDzQ/y1w
+        //8sjP//FmPi/6G78f/c5/////7////98P/7+fH/+/7///v+///39vr/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9//3//v7////+v////7///7/8f/0//v/0+b//5Gj6v8FSOX/AU/X/yVU6/8zSdf/NGne/yJ2
+        //8kbf//dqve/+zz///5+/////75///98v////j//f////v+///7+///////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9v/x//r7////8v////n///j/+f/Y9///hqz0/zFV1/8QTOX/KWX0/wo/z/8fW/T/MIP//wtg
+        7P9jj9z////7/////P/+//v////7/////P////z///38//38/v/9/v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+P/5//3+/P//+fr///7//+Px//+Vt/L/Om/k/wpI6v8eWN//OWP//x5e5f8Mae7/Gmr//2aa
+        9P/f9PL///z/////8f/6/vj/9/////j////8/v7//vr5//z6+v/8/v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9/z/////+P///+3////5/8jU/v9YeeD/Ek7i/xVl//8eWv//EUzK/ylq9P8fb///TZHe/8zd
+        8P/99///6vz/////8v/6//v/7/3//+/5///7/v/////+/////v/+/f//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////6v////r67P//9P/////z/1iT2f8VU///KWz9/y1k7/8MY/P/GV3k/zuA//8eae3/jb3/////
+        +//88d3/8fz/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////4////+v/69///pcXw/0CC6/8vdv//H2Dx/yxg6P8FVOH/MXn//ytz9/9QjvT/yuz///j5
+        7/////X/9Pf/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////no//z7//++4///Uor3/zh4//82gfv/Jmj3/zJo8f8eYuv/LXr//yZt7P+Bquj/8f7///n+
+        7/////7/+vT/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////nw//38//+a0O//Rnr//0Zo5P8dWZ//MHH//ytq+/8ybfL/EWH6/1CV//9shKL/6ufL//7/
+        7//3/f////n/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////vz////8//+l1Or/PV7T/ygmeP8BJE//E1bp/xJV7v8XUc//NYL//ydn3f+SpMH/j4dp//Lz
+        3//r7/T///z/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////6/j////38P/E4P//HzyX/wgAL/8nOnf/EVPo/zVs9f8jYd3/KG34/xVPxv99lMz/m5mY/2Fd
+        S////vr/+Pf///7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////7P//////6v/D0///CzuT/xEXTP9OYtf/Glzx/2eH6/9Bh///G1fT/ws8tv9hheP/bnmf/3Bk
+        WP//9uj/7fb///7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////7P/5////4v+Sn/v/ADaX/wkrbf8pRen/ADHE/0xVnv9Ilf//Fky//y9b1v8qVtH/IjZ3///w
+        5////+3/7Pz///7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9vj//+32//+Lndr/BSB6/y9Vwf8aRrn/DTqt/xVDs/8tR9H/HkXF/zFg2f8kScH/Jjqq/4SN
+        3f/S4/7/3Pnp/+/0///4//7/8f3h//v/4v////L///r4///7+f////j/9vfz///8/f//+v//+vn//+z8
+        ///r//D/+v/w////9f/+/v7/9/f3//7+/v/6+vr/9/f3/////////////f39////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+v/p/+/79f+swdz/Cilo/zxjxf9TfPr/SnX//zFb8P8mW8P/IV3P/xZU2P8FNs7/GzfY/zhE
+        5P9BSdz/Wmbu/4KYu/+qvPn/uMn//6nC//+93PX/3fj8/+32///69f//6v/8//b//P/68vL///b2////
+        /P/9//z///3///7y/////////v7+/////////////v7+///////+/v7/+fn5////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////u/+rt3v/q+v//YX6d/zFWlP+Su///KVDE/ydOz/8oRvH/DjTu/yVS//8uYf//Bzu+/wAQ
+        eP8AFHr/Fkm3/xxJzv8KN7b/HUvB/x1Juv8vV8H/S3PM/054v/9wm9T/c6LI/7LJ7//09f////v////9
+        ///59f//+PT///z2/////////f39//z8/P////////////7+/v//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////L////6///6/f//wdTZ/xo1P/98ma7/wt7//42o1P9phtH/OlnA/yxUyv9hkfD/gLnt/zZt
+        lP8AJmj/JlS5/wNG9/8ANs7/F1HS/y1b3v8hRNr/CzXO/wM+w/8cadf/JFXJ/zBOy/88Ubr/WHCy/5Or
+        2f/V5///8fv///v/8P/+/v7///////j4+P/7+/v//v7+//r6+v//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////8OP9///6///w8e/////0//n/6P94fmf/d3ho/5uZjv+NnXv/OUpH/2yBl//R6vr/6P///+f+
+        ///K2v//n6f//1aP3v9Ddur/IE3q/xRG7P8MRd7/D0rW/yFW7P8WQ+j/DUPQ/xI/5/8NQeL/AEC7/wA/
+        rP8zX8r/oLfv//P/9//x8fH///////39/f////////////j4+P//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+//5/+305f////H//v7m////7v////L/7djQ/9a9u//VuMH/3cfa///y/////P/////u////
+        7f/8//b/8vj///r////H3P//XYnm/yxr9f8UWfb/DUXg/zlb6v9EWNv/I2ne/xlW9P8XW/z/GnDy/xFh
+        7v8UQu3/PVbU/3GKsv/FxcX/+vr6//n5+f////////////r6+v///////Pz8////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////8frm//3/9P/v8+f////5/+rn4//99/j///3////8////+v////f6/////////v//8uTq///5
+        /////P//+Pz////9///7//v/5v/+/8Pn//+Gqv//NFjh/xlByf8uXtT/ClbO/xVI5P8XRNH/FlKs/yRc
+        zf81V///K0jf/w8+gv+pqan/9fX1//j4+P/9/f3///////n5+f///////f39////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////z////7///++v//+/v///j8///z////3vLt/+f/9v/+/f//8v3z/+z/7f/x/ff///v////4
+        ///o7fD/8f/3/+D6///4/v3////y///43P////X/vt///yls6/8AOPb/AUPi/z1d//9BT9H/DCRY/w0n
+        af8/U+D/K1XY/wAsYP+3t7f////////////8/Pz///////T09P///////v7+////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////5/////P////38//n9+P/4////8Pn//9Te9v+2v+D/ZInd/0p75/8gY+7/AU3t/wBH
+        5P8lXdr/YoPZ/46g2//v7+//9vb2//7+/v////////////39/f/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////4/////v///v/9//j89//5//7/9v7///P7///o7f//8Pf//87e//+bt/f/dJfn/3OT
+        3/+cseX/29/3///+///29vb/+/v7//////////////////39/f/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////z6/////v///f/+//b99v/0+vX/+v////j+///4+//////t////9f/9////9fn///T2
+        ///8+vn////x////6f/+/v7///////////////////////39/f/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////f6///7////+//+//r/+v/4/Pb/+f34//r8/P/4+vv/+P/0//r/+P/7//z/+//+//v/
+        ///5//3/9Pz1/+757/////////////////////////////7+/v//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////b7/v/6/v//+//+//3//P////v////7/////P///vr/8f7///T////0+/7/9vr7//f8
+        ///z/f//7/3//+n8/////////////////////////v7+//7+/v//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////3////9////+vz8//v8+v/+//3////+/////v////7/+fj6///7/P////v////5////
+        +f////7///7///X4///+/v7//v7+//7+/v/+/v7//v7+////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////Pv9//v6/P/7+vz/+/r8//v6/P/8+/3////+///++///+/f///rx///6
+        8f///PX////7/////P///////v7+//7+/v//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////35+P//+vv///7////9/////f///f3///39///9/v//9/z///j+///4/v//+P7///j/
+        ///7/v///f/////+/////////////////////////////////////////v7+////////////////////
+        //8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value>ABB RAPID Program Helper</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ABB RAPID Program Helper</value>
+  </data>
+  <data name="btReoDown.Text" xml:space="preserve">
+    <value>▼</value>
+  </data>
+  <data name="btReoUp.Text" xml:space="preserve">
+    <value>▲</value>
+  </data>
+  <data name="cbEncodeVers.Items" xml:space="preserve">
+    <value>FE=254=þ</value>
+  </data>
+  <data name="cbEncodeVers.Items1" xml:space="preserve">
+    <value>FD=253=ý</value>
+  </data>
+  <data name="cbEncodeVers.Items2" xml:space="preserve">
+    <value>FC=252=ü</value>
+  </data>
+  <data name="btReoDown.ToolTip" xml:space="preserve">
+    <value>Transfer Rotation to Angle</value>
+  </data>
+  <data name="btReoUp.ToolTip" xml:space="preserve">
+    <value>Transfer Angle to Rotation</value>
+  </data>
+  <data name="txtModifCf6.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdDecod.Text" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+  <data name="cmnuLBPointsSelInverser.Text" xml:space="preserve">
+    <value>Inverse</value>
+  </data>
+  <data name="cmnuLBPointsEffacerTout.Text" xml:space="preserve">
+    <value>Delete all</value>
+  </data>
+  <data name="txtModifZ.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdReorientGetFromModif.Text" xml:space="preserve">
+    <value>&gt;&gt; Recover from Modification</value>
+  </data>
+  <data name="cbEncodeVers.ToolTip" xml:space="preserve">
+    <value>Encoding version. Determines the first byte of the file.</value>
+  </data>
+  <data name="chkDecalX.Text" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="chkDecalY.Text" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="chkDecalZ.Text" xml:space="preserve">
+    <value>Offset Z</value>
+  </data>
+  <data name="chkModifCf1.Text" xml:space="preserve">
+    <value>Modify cf1</value>
+  </data>
+  <data name="chkModifCf4.Text" xml:space="preserve">
+    <value>Modify cf4</value>
+  </data>
+  <data name="chkModifCf6.Text" xml:space="preserve">
+    <value>Modify cf6</value>
+  </data>
+  <data name="chkModifCfx.Text" xml:space="preserve">
+    <value>Modify cfx</value>
+  </data>
+  <data name="chkModifQ1.Text" xml:space="preserve">
+    <value>Modify Q1</value>
+  </data>
+  <data name="chkModifQ2.Text" xml:space="preserve">
+    <value>Modify Q2</value>
+  </data>
+  <data name="chkModifQ3.Text" xml:space="preserve">
+    <value>Modify Q3</value>
+  </data>
+  <data name="chkModifQ4.Text" xml:space="preserve">
+    <value>Modify Q4</value>
+  </data>
+  <data name="chkModifX.Text" xml:space="preserve">
+    <value>Modify X</value>
+  </data>
+  <data name="chkModifY.Text" xml:space="preserve">
+    <value>Modify Y</value>
+  </data>
+  <data name="chkModifZ.Text" xml:space="preserve">
+    <value>Modify Z</value>
+  </data>
+  <data name="cmdDecalOK.Text" xml:space="preserve">
+    <value>Offset
+V</value>
+  </data>
+  <data name="cmdDecod.ToolTip" xml:space="preserve">
+    <value>Allows you to decode a RAPID file.
+Ctrl click to decode a directory.
+Drop the file or directories to be decoded.</value>
+  </data>
+  <data name="cmdEncod.Text" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="cmdEncod.ToolTip" xml:space="preserve">
+    <value>Allows you to encode a RAPID file.
+Drop the file to encode.</value>
+  </data>
+  <data name="cmdModifOK.Text" xml:space="preserve">
+    <value>Modify
+V</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.Text" xml:space="preserve">
+    <value>&lt;&lt; Copy to Modification</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.ToolTip" xml:space="preserve">
+    <value>Copy the quaternion values to the Modification sheet</value>
+  </data>
+  <data name="cmdReorientGetFromModif.ToolTip" xml:space="preserve">
+    <value>Retrieves the quaternion values from the Modification page</value>
+  </data>
+  <data name="cmnuLBPointsColler.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="cmnuLBPointsColler.ToolTipText" xml:space="preserve">
+    <value>Paste the clipboard in the list</value>
+  </data>
+  <data name="cmnuLBPointsCopier.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cmnuLBPointsCopier.ToolTipText" xml:space="preserve">
+    <value>Copy the list to the clipboard</value>
+  </data>
+  <data name="cmnuLBPointsEffacer.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="cmnuLBPointsEffacer.ToolTipText" xml:space="preserve">
+    <value>Clear list</value>
+  </data>
+  <data name="cmnuLBPointsEffacerTout.ToolTipText" xml:space="preserve">
+    <value>Clear all controls</value>
+  </data>
+  <data name="cmnuLBPointsSel.Text" xml:space="preserve">
+    <value>Selections</value>
+  </data>
+  <data name="cmnuLBPointsSelAucun.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="cmnuLBPointsSelRef.Text" xml:space="preserve">
+    <value>Reference selection</value>
+  </data>
+  <data name="cmnuLBPointsSelRef.ToolTipText" xml:space="preserve">
+    <value>Copies the selection as a reference target</value>
+  </data>
+  <data name="cmnuLBPointsSelTout.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="fraDecalTrans.Text" xml:space="preserve">
+    <value>Translations</value>
+  </data>
+  <data name="fraRobConf.Text" xml:space="preserve">
+    <value>Robot Configurations</value>
+  </data>
+  <data name="fraRot.Text" xml:space="preserve">
+    <value>Rotations</value>
+  </data>
+  <data name="fraTrans.Text" xml:space="preserve">
+    <value>Translations</value>
+  </data>
+  <data name="frmReorientEuler.Text" xml:space="preserve">
+    <value>Euler angles</value>
+  </data>
+  <data name="frmReorientQuat.Text" xml:space="preserve">
+    <value>Rotations</value>
+  </data>
+  <data name="lblEncodeVers.Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="lblReorientOriValue.Text" xml:space="preserve">
+    <value>Reference orientation value</value>
+  </data>
+  <data name="lblReorientQ1.Text" xml:space="preserve">
+    <value>Q1:</value>
+  </data>
+  <data name="lblReorientQ2.Text" xml:space="preserve">
+    <value>Q2:</value>
+  </data>
+  <data name="lblReorientQ3.Text" xml:space="preserve">
+    <value>Q3:</value>
+  </data>
+  <data name="lblReorientQ4.Text" xml:space="preserve">
+    <value>Q4:</value>
+  </data>
+  <data name="lblReorientRX.Text" xml:space="preserve">
+    <value>RX:</value>
+  </data>
+  <data name="lblReorientRY.Text" xml:space="preserve">
+    <value>RY:</value>
+  </data>
+  <data name="lblReorientRZ.Text" xml:space="preserve">
+    <value>RZ:</value>
+  </data>
+  <data name="lblRobValue.Text" xml:space="preserve">
+    <value>Reference Target Value</value>
+  </data>
+  <data name="pagDecal.Text" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="pagDecal.ToolTipText" xml:space="preserve">
+    <value>Allows to perform an offset on the selected points</value>
+  </data>
+  <data name="pagDecod.Text" xml:space="preserve">
+    <value>Decoding</value>
+  </data>
+  <data name="pagDecod.ToolTipText" xml:space="preserve">
+    <value>Allows you to decode a file.</value>
+  </data>
+  <data name="pagEncod.Text" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="pagModif.Text" xml:space="preserve">
+    <value>Modification</value>
+  </data>
+  <data name="pagModif.ToolTipText" xml:space="preserve">
+    <value>Allows you to modify the selected targets</value>
+  </data>
+  <data name="pagReorient.Text" xml:space="preserve">
+    <value>Reorientation</value>
+  </data>
+  <data name="pagReorient.ToolTipText" xml:space="preserve">
+    <value>Allows you to set an orientation in degrees to or from quaternions</value>
+  </data>
+  <data name="txtDecalX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalX.ToolTip" xml:space="preserve">
+    <value>Offset X value</value>
+  </data>
+  <data name="txtDecalY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalY.ToolTip" xml:space="preserve">
+    <value>Offset Y value</value>
+  </data>
+  <data name="txtDecalZ.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalZ.ToolTip" xml:space="preserve">
+    <value>Offset Z value</value>
+  </data>
+  <data name="txtModifCf1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCf1.ToolTip" xml:space="preserve">
+    <value>Modify cf1 value</value>
+  </data>
+  <data name="txtModifCf4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCf4.ToolTip" xml:space="preserve">
+    <value>Modify cf4 value</value>
+  </data>
+  <data name="txtModifCf6.ToolTip" xml:space="preserve">
+    <value>Modify cf6 value</value>
+  </data>
+  <data name="txtModifCfx.ToolTip" xml:space="preserve">
+    <value>Modify cfx value</value>
+  </data>
+  <data name="txtModifCfx.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtModifQ2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtReorientQ2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientRX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientRY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientRZ.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ1.ToolTip" xml:space="preserve">
+    <value>Modify Q1 value</value>
+  </data>
+  <data name="txtModifQ2.ToolTip" xml:space="preserve">
+    <value>Modify Q2 value</value>
+  </data>
+  <data name="txtModifQ3.ToolTip" xml:space="preserve">
+    <value>Modify Q3 value</value>
+  </data>
+  <data name="txtModifQ4.ToolTip" xml:space="preserve">
+    <value>Modify Q4 value</value>
+  </data>
+  <data name="txtModifX.ToolTip" xml:space="preserve">
+    <value>Modify X value</value>
+  </data>
+  <data name="txtModifY.ToolTip" xml:space="preserve">
+    <value>Modify Y value</value>
+  </data>
+  <data name="txtModifZ.ToolTip" xml:space="preserve">
+    <value>Modify Z value</value>
+  </data>
+  <data name="txtReorientOriValue.ToolTip" xml:space="preserve">
+    <value>Reference orientation value</value>
+  </data>
+  <data name="txtReorientQ1.ToolTip" xml:space="preserve">
+    <value>Rotation value Q1</value>
+  </data>
+  <data name="txtReorientQ2.ToolTip" xml:space="preserve">
+    <value>Rotation value Q2</value>
+  </data>
+  <data name="txtReorientQ3.ToolTip" xml:space="preserve">
+    <value>Rotation value Q3</value>
+  </data>
+  <data name="txtReorientQ4.ToolTip" xml:space="preserve">
+    <value>Rotation value Q4</value>
+  </data>
+  <data name="txtReorientRX.ToolTip" xml:space="preserve">
+    <value>RX Angle value</value>
+  </data>
+  <data name="txtReorientRY.ToolTip" xml:space="preserve">
+    <value>RY Angle value</value>
+  </data>
+  <data name="txtReorientRZ.ToolTip" xml:space="preserve">
+    <value>RZ Angle value</value>
+  </data>
+  <data name="txtRobValue.ToolTip" xml:space="preserve">
+    <value>Reference Target value</value>
+  </data>
+</root>

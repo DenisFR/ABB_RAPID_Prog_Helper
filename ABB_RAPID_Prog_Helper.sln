@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ABB_RAPID_Prog_Helper", "ABB_RAPID_Prog_Helper\ABB_RAPID_Prog_Helper.vbproj", "{062F3A67-EC5D-4790-9C7C-134F462EF28D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{062F3A67-EC5D-4790-9C7C-134F462EF28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062F3A67-EC5D-4790-9C7C-134F462EF28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062F3A67-EC5D-4790-9C7C-134F462EF28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062F3A67-EC5D-4790-9C7C-134F462EF28D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E26E564-7354-4401-9902-2FBEE0518857}
+	EndGlobalSection
+EndGlobal

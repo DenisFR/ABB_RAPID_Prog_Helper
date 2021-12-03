@@ -1,0 +1,2568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdModifOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 244</value>
+  </data>
+  <data name="cmdModifOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 48</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdModifOK.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdModifOK.Text" xml:space="preserve">
+    <value>Modify
+V</value>
+  </data>
+  <metadata name="ttToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cmdModifOK.ToolTip" xml:space="preserve">
+    <value>Applies the changes to the selection.</value>
+  </data>
+  <data name="&gt;&gt;cmdModifOK.Name" xml:space="preserve">
+    <value>cmdModifOK</value>
+  </data>
+  <data name="&gt;&gt;cmdModifOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdModifOK.Parent" xml:space="preserve">
+    <value>pagModif</value>
+  </data>
+  <data name="&gt;&gt;cmdModifOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtRobValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 43</value>
+  </data>
+  <data name="txtRobValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 23</value>
+  </data>
+  <data name="txtRobValue.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtRobValue.ToolTip" xml:space="preserve">
+    <value>Reference Target value</value>
+  </data>
+  <data name="&gt;&gt;txtRobValue.Name" xml:space="preserve">
+    <value>txtRobValue</value>
+  </data>
+  <data name="&gt;&gt;txtRobValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRobValue.Parent" xml:space="preserve">
+    <value>pagModif</value>
+  </data>
+  <data name="&gt;&gt;txtRobValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblRobValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRobValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 23</value>
+  </data>
+  <data name="lblRobValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 15</value>
+  </data>
+  <data name="lblRobValue.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblRobValue.Text" xml:space="preserve">
+    <value>Reference Target Value</value>
+  </data>
+  <data name="&gt;&gt;lblRobValue.Name" xml:space="preserve">
+    <value>lblRobValue</value>
+  </data>
+  <data name="&gt;&gt;lblRobValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRobValue.Parent" xml:space="preserve">
+    <value>pagModif</value>
+  </data>
+  <data name="&gt;&gt;lblRobValue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtModifCfx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 95</value>
+  </data>
+  <data name="txtModifCfx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifCfx.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="txtModifCfx.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCfx.ToolTip" xml:space="preserve">
+    <value>Modify cfx value</value>
+  </data>
+  <data name="&gt;&gt;txtModifCfx.Name" xml:space="preserve">
+    <value>txtModifCfx</value>
+  </data>
+  <data name="&gt;&gt;txtModifCfx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifCfx.Parent" xml:space="preserve">
+    <value>fraRobConf</value>
+  </data>
+  <data name="&gt;&gt;txtModifCfx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkModifCfx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifCfx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 97</value>
+  </data>
+  <data name="chkModifCfx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="chkModifCfx.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="chkModifCfx.Text" xml:space="preserve">
+    <value>Modify cfx</value>
+  </data>
+  <data name="chkModifCfx.ToolTip" xml:space="preserve">
+    <value>Modify cfx</value>
+  </data>
+  <data name="&gt;&gt;chkModifCfx.Name" xml:space="preserve">
+    <value>chkModifCfx</value>
+  </data>
+  <data name="&gt;&gt;chkModifCfx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifCfx.Parent" xml:space="preserve">
+    <value>fraRobConf</value>
+  </data>
+  <data name="&gt;&gt;chkModifCfx.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtModifCf6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 70</value>
+  </data>
+  <data name="txtModifCf6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifCf6.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="txtModifCf6.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCf6.ToolTip" xml:space="preserve">
+    <value>Modify cf6 value</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf6.Name" xml:space="preserve">
+    <value>txtModifCf6</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf6.Parent" xml:space="preserve">
+    <value>fraRobConf</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkModifCf6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifCf6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 72</value>
+  </data>
+  <data name="chkModifCf6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="chkModifCf6.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="chkModifCf6.Text" xml:space="preserve">
+    <value>Modify cf6</value>
+  </data>
+  <data name="chkModifCf6.ToolTip" xml:space="preserve">
+    <value>Modify cf6</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf6.Name" xml:space="preserve">
+    <value>chkModifCf6</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf6.Parent" xml:space="preserve">
+    <value>fraRobConf</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtModifCf4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 45</value>
+  </data>
+  <data name="txtModifCf4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifCf4.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txtModifCf4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCf4.ToolTip" xml:space="preserve">
+    <value>Modify cf4 value</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf4.Name" xml:space="preserve">
+    <value>txtModifCf4</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf4.Parent" xml:space="preserve">
+    <value>fraRobConf</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkModifCf4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifCf4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="chkModifCf4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="chkModifCf4.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="chkModifCf4.Text" xml:space="preserve">
+    <value>Modify cf4</value>
+  </data>
+  <data name="chkModifCf4.ToolTip" xml:space="preserve">
+    <value>Modify cf4</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf4.Name" xml:space="preserve">
+    <value>chkModifCf4</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf4.Parent" xml:space="preserve">
+    <value>fraRobConf</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtModifCf1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="txtModifCf1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifCf1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="txtModifCf1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifCf1.ToolTip" xml:space="preserve">
+    <value>Modify cf1 value</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf1.Name" xml:space="preserve">
+    <value>txtModifCf1</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf1.Parent" xml:space="preserve">
+    <value>fraRobConf</value>
+  </data>
+  <data name="&gt;&gt;txtModifCf1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkModifCf1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifCf1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="chkModifCf1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="chkModifCf1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="chkModifCf1.Text" xml:space="preserve">
+    <value>Modify cf1</value>
+  </data>
+  <data name="chkModifCf1.ToolTip" xml:space="preserve">
+    <value>Modify cf1</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf1.Name" xml:space="preserve">
+    <value>chkModifCf1</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf1.Parent" xml:space="preserve">
+    <value>fraRobConf</value>
+  </data>
+  <data name="&gt;&gt;chkModifCf1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="fraRobConf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 105</value>
+  </data>
+  <data name="fraRobConf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 125</value>
+  </data>
+  <data name="fraRobConf.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="fraRobConf.Text" xml:space="preserve">
+    <value>Robot Configurations</value>
+  </data>
+  <data name="&gt;&gt;fraRobConf.Name" xml:space="preserve">
+    <value>fraRobConf</value>
+  </data>
+  <data name="&gt;&gt;fraRobConf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraRobConf.Parent" xml:space="preserve">
+    <value>pagModif</value>
+  </data>
+  <data name="&gt;&gt;fraRobConf.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtModifQ4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 95</value>
+  </data>
+  <data name="txtModifQ4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifQ4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtModifQ4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ4.ToolTip" xml:space="preserve">
+    <value>Modify Q4 value</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ4.Name" xml:space="preserve">
+    <value>txtModifQ4</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ4.Parent" xml:space="preserve">
+    <value>fraRot</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkModifQ4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifQ4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 97</value>
+  </data>
+  <data name="chkModifQ4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="chkModifQ4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkModifQ4.Text" xml:space="preserve">
+    <value>Modify Q4</value>
+  </data>
+  <data name="chkModifQ4.ToolTip" xml:space="preserve">
+    <value>Modify Q4</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ4.Name" xml:space="preserve">
+    <value>chkModifQ4</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ4.Parent" xml:space="preserve">
+    <value>fraRot</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtModifQ3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 70</value>
+  </data>
+  <data name="txtModifQ3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifQ3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtModifQ3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ3.ToolTip" xml:space="preserve">
+    <value>Modify Q3 value</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ3.Name" xml:space="preserve">
+    <value>txtModifQ3</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ3.Parent" xml:space="preserve">
+    <value>fraRot</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkModifQ3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifQ3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 72</value>
+  </data>
+  <data name="chkModifQ3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="chkModifQ3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkModifQ3.Text" xml:space="preserve">
+    <value>Modify Q3</value>
+  </data>
+  <data name="chkModifQ3.ToolTip" xml:space="preserve">
+    <value>Modify Q3</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ3.Name" xml:space="preserve">
+    <value>chkModifQ3</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ3.Parent" xml:space="preserve">
+    <value>fraRot</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtModifQ2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="txtModifQ2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifQ2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtModifQ2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifQ2.ToolTip" xml:space="preserve">
+    <value>Modify Q2 value</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ2.Name" xml:space="preserve">
+    <value>txtModifQ2</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ2.Parent" xml:space="preserve">
+    <value>fraRot</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkModifQ2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifQ2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="chkModifQ2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="chkModifQ2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkModifQ2.Text" xml:space="preserve">
+    <value>Modify Q2</value>
+  </data>
+  <data name="chkModifQ2.ToolTip" xml:space="preserve">
+    <value>Modify Q2</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ2.Name" xml:space="preserve">
+    <value>chkModifQ2</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ2.Parent" xml:space="preserve">
+    <value>fraRot</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtModifQ1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 20</value>
+  </data>
+  <data name="txtModifQ1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifQ1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtModifQ1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtModifQ1.ToolTip" xml:space="preserve">
+    <value>Modify Q1 value</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ1.Name" xml:space="preserve">
+    <value>txtModifQ1</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ1.Parent" xml:space="preserve">
+    <value>fraRot</value>
+  </data>
+  <data name="&gt;&gt;txtModifQ1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkModifQ1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifQ1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="chkModifQ1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="chkModifQ1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkModifQ1.Text" xml:space="preserve">
+    <value>Modify Q1</value>
+  </data>
+  <data name="chkModifQ1.ToolTip" xml:space="preserve">
+    <value>Modify Q1</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ1.Name" xml:space="preserve">
+    <value>chkModifQ1</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ1.Parent" xml:space="preserve">
+    <value>fraRot</value>
+  </data>
+  <data name="&gt;&gt;chkModifQ1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="fraRot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 105</value>
+  </data>
+  <data name="fraRot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 125</value>
+  </data>
+  <data name="fraRot.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="fraRot.Text" xml:space="preserve">
+    <value>Rotations</value>
+  </data>
+  <data name="&gt;&gt;fraRot.Name" xml:space="preserve">
+    <value>fraRot</value>
+  </data>
+  <data name="&gt;&gt;fraRot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraRot.Parent" xml:space="preserve">
+    <value>pagModif</value>
+  </data>
+  <data name="&gt;&gt;fraRot.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtModifZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 70</value>
+  </data>
+  <data name="txtModifZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifZ.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtModifZ.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifZ.ToolTip" xml:space="preserve">
+    <value>Modify Z value</value>
+  </data>
+  <data name="&gt;&gt;txtModifZ.Name" xml:space="preserve">
+    <value>txtModifZ</value>
+  </data>
+  <data name="&gt;&gt;txtModifZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifZ.Parent" xml:space="preserve">
+    <value>fraTrans</value>
+  </data>
+  <data name="&gt;&gt;txtModifZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkModifZ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 72</value>
+  </data>
+  <data name="chkModifZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="chkModifZ.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkModifZ.Text" xml:space="preserve">
+    <value>Modify Z</value>
+  </data>
+  <data name="chkModifZ.ToolTip" xml:space="preserve">
+    <value>Modify Z</value>
+  </data>
+  <data name="&gt;&gt;chkModifZ.Name" xml:space="preserve">
+    <value>chkModifZ</value>
+  </data>
+  <data name="&gt;&gt;chkModifZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifZ.Parent" xml:space="preserve">
+    <value>fraTrans</value>
+  </data>
+  <data name="&gt;&gt;chkModifZ.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtModifY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="txtModifY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifY.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtModifY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifY.ToolTip" xml:space="preserve">
+    <value>Modify Y value</value>
+  </data>
+  <data name="&gt;&gt;txtModifY.Name" xml:space="preserve">
+    <value>txtModifY</value>
+  </data>
+  <data name="&gt;&gt;txtModifY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifY.Parent" xml:space="preserve">
+    <value>fraTrans</value>
+  </data>
+  <data name="&gt;&gt;txtModifY.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkModifY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="chkModifY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="chkModifY.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkModifY.Text" xml:space="preserve">
+    <value>Modify Y</value>
+  </data>
+  <data name="chkModifY.ToolTip" xml:space="preserve">
+    <value>Modify Y</value>
+  </data>
+  <data name="&gt;&gt;chkModifY.Name" xml:space="preserve">
+    <value>chkModifY</value>
+  </data>
+  <data name="&gt;&gt;chkModifY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifY.Parent" xml:space="preserve">
+    <value>fraTrans</value>
+  </data>
+  <data name="&gt;&gt;chkModifY.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtModifX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 20</value>
+  </data>
+  <data name="txtModifX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtModifX.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtModifX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtModifX.ToolTip" xml:space="preserve">
+    <value>Modify X value</value>
+  </data>
+  <data name="&gt;&gt;txtModifX.Name" xml:space="preserve">
+    <value>txtModifX</value>
+  </data>
+  <data name="&gt;&gt;txtModifX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtModifX.Parent" xml:space="preserve">
+    <value>fraTrans</value>
+  </data>
+  <data name="&gt;&gt;txtModifX.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkModifX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkModifX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="chkModifX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 19</value>
+  </data>
+  <data name="chkModifX.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkModifX.Text" xml:space="preserve">
+    <value>Modify X</value>
+  </data>
+  <data name="chkModifX.ToolTip" xml:space="preserve">
+    <value>Modify X</value>
+  </data>
+  <data name="&gt;&gt;chkModifX.Name" xml:space="preserve">
+    <value>chkModifX</value>
+  </data>
+  <data name="&gt;&gt;chkModifX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkModifX.Parent" xml:space="preserve">
+    <value>fraTrans</value>
+  </data>
+  <data name="&gt;&gt;chkModifX.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="fraTrans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fraTrans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 100</value>
+  </data>
+  <data name="fraTrans.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="fraTrans.Text" xml:space="preserve">
+    <value>Translations</value>
+  </data>
+  <data name="&gt;&gt;fraTrans.Name" xml:space="preserve">
+    <value>fraTrans</value>
+  </data>
+  <data name="&gt;&gt;fraTrans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraTrans.Parent" xml:space="preserve">
+    <value>pagModif</value>
+  </data>
+  <data name="&gt;&gt;fraTrans.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pagModif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pagModif.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pagModif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 292</value>
+  </data>
+  <data name="pagModif.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pagModif.Text" xml:space="preserve">
+    <value>Modification</value>
+  </data>
+  <data name="pagModif.ToolTipText" xml:space="preserve">
+    <value>Allows you to modify the selected targets</value>
+  </data>
+  <data name="&gt;&gt;pagModif.Name" xml:space="preserve">
+    <value>pagModif</value>
+  </data>
+  <data name="&gt;&gt;pagModif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pagModif.Parent" xml:space="preserve">
+    <value>mltpChoix</value>
+  </data>
+  <data name="&gt;&gt;pagModif.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdDecalOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 244</value>
+  </data>
+  <data name="cmdDecalOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 48</value>
+  </data>
+  <data name="cmdDecalOK.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdDecalOK.Text" xml:space="preserve">
+    <value>Offset
+V</value>
+  </data>
+  <data name="cmdDecalOK.ToolTip" xml:space="preserve">
+    <value>Applies the changes to the selection.</value>
+  </data>
+  <data name="&gt;&gt;cmdDecalOK.Name" xml:space="preserve">
+    <value>cmdDecalOK</value>
+  </data>
+  <data name="&gt;&gt;cmdDecalOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDecalOK.Parent" xml:space="preserve">
+    <value>pagDecal</value>
+  </data>
+  <data name="&gt;&gt;cmdDecalOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 70</value>
+  </data>
+  <data name="txtDecalZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtDecalZ.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtDecalZ.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalZ.ToolTip" xml:space="preserve">
+    <value>Offset Z value</value>
+  </data>
+  <data name="&gt;&gt;txtDecalZ.Name" xml:space="preserve">
+    <value>txtDecalZ</value>
+  </data>
+  <data name="&gt;&gt;txtDecalZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDecalZ.Parent" xml:space="preserve">
+    <value>fraDecalTrans</value>
+  </data>
+  <data name="&gt;&gt;txtDecalZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkDecalZ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDecalZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 72</value>
+  </data>
+  <data name="chkDecalZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="chkDecalZ.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkDecalZ.Text" xml:space="preserve">
+    <value>Offset Z</value>
+  </data>
+  <data name="chkDecalZ.ToolTip" xml:space="preserve">
+    <value>Offset Z</value>
+  </data>
+  <data name="&gt;&gt;chkDecalZ.Name" xml:space="preserve">
+    <value>chkDecalZ</value>
+  </data>
+  <data name="&gt;&gt;chkDecalZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDecalZ.Parent" xml:space="preserve">
+    <value>fraDecalTrans</value>
+  </data>
+  <data name="&gt;&gt;chkDecalZ.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtDecalY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 45</value>
+  </data>
+  <data name="txtDecalY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtDecalY.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtDecalY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalY.ToolTip" xml:space="preserve">
+    <value>Offset Y value</value>
+  </data>
+  <data name="&gt;&gt;txtDecalY.Name" xml:space="preserve">
+    <value>txtDecalY</value>
+  </data>
+  <data name="&gt;&gt;txtDecalY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDecalY.Parent" xml:space="preserve">
+    <value>fraDecalTrans</value>
+  </data>
+  <data name="&gt;&gt;txtDecalY.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkDecalY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDecalY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="chkDecalY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="chkDecalY.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkDecalY.Text" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="chkDecalY.ToolTip" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="&gt;&gt;chkDecalY.Name" xml:space="preserve">
+    <value>chkDecalY</value>
+  </data>
+  <data name="&gt;&gt;chkDecalY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDecalY.Parent" xml:space="preserve">
+    <value>fraDecalTrans</value>
+  </data>
+  <data name="&gt;&gt;chkDecalY.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtDecalX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 20</value>
+  </data>
+  <data name="txtDecalX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 23</value>
+  </data>
+  <data name="txtDecalX.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtDecalX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDecalX.ToolTip" xml:space="preserve">
+    <value>Offset X value</value>
+  </data>
+  <data name="&gt;&gt;txtDecalX.Name" xml:space="preserve">
+    <value>txtDecalX</value>
+  </data>
+  <data name="&gt;&gt;txtDecalX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDecalX.Parent" xml:space="preserve">
+    <value>fraDecalTrans</value>
+  </data>
+  <data name="&gt;&gt;txtDecalX.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkDecalX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDecalX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="chkDecalX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="chkDecalX.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkDecalX.Text" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="chkDecalX.ToolTip" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="&gt;&gt;chkDecalX.Name" xml:space="preserve">
+    <value>chkDecalX</value>
+  </data>
+  <data name="&gt;&gt;chkDecalX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDecalX.Parent" xml:space="preserve">
+    <value>fraDecalTrans</value>
+  </data>
+  <data name="&gt;&gt;chkDecalX.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="fraDecalTrans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fraDecalTrans.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 97</value>
+  </data>
+  <data name="fraDecalTrans.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fraDecalTrans.Text" xml:space="preserve">
+    <value>Translations</value>
+  </data>
+  <data name="&gt;&gt;fraDecalTrans.Name" xml:space="preserve">
+    <value>fraDecalTrans</value>
+  </data>
+  <data name="&gt;&gt;fraDecalTrans.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fraDecalTrans.Parent" xml:space="preserve">
+    <value>pagDecal</value>
+  </data>
+  <data name="&gt;&gt;fraDecalTrans.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pagDecal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="pagDecal.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pagDecal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 292</value>
+  </data>
+  <data name="pagDecal.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pagDecal.Text" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="pagDecal.ToolTipText" xml:space="preserve">
+    <value>Allows to perform an offset on the selected points</value>
+  </data>
+  <data name="&gt;&gt;pagDecal.Name" xml:space="preserve">
+    <value>pagDecal</value>
+  </data>
+  <data name="&gt;&gt;pagDecal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pagDecal.Parent" xml:space="preserve">
+    <value>mltpChoix</value>
+  </data>
+  <data name="&gt;&gt;pagDecal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btReoDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="btReoDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 165</value>
+  </data>
+  <data name="btReoDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 24</value>
+  </data>
+  <data name="btReoDown.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btReoDown.Text" xml:space="preserve">
+    <value>▼</value>
+  </data>
+  <data name="btReoDown.ToolTip" xml:space="preserve">
+    <value>Transfer Rotation to Angle</value>
+  </data>
+  <data name="&gt;&gt;btReoDown.Name" xml:space="preserve">
+    <value>btReoDown</value>
+  </data>
+  <data name="&gt;&gt;btReoDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btReoDown.Parent" xml:space="preserve">
+    <value>pagReorient</value>
+  </data>
+  <data name="&gt;&gt;btReoDown.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btReoUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <data name="btReoUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 135</value>
+  </data>
+  <data name="btReoUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 24</value>
+  </data>
+  <data name="btReoUp.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btReoUp.Text" xml:space="preserve">
+    <value>▲</value>
+  </data>
+  <data name="btReoUp.ToolTip" xml:space="preserve">
+    <value>Transfer Angle to Rotation</value>
+  </data>
+  <data name="&gt;&gt;btReoUp.Name" xml:space="preserve">
+    <value>btReoUp</value>
+  </data>
+  <data name="&gt;&gt;btReoUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btReoUp.Parent" xml:space="preserve">
+    <value>pagReorient</value>
+  </data>
+  <data name="&gt;&gt;btReoUp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtReorientOriValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 43</value>
+  </data>
+  <data name="txtReorientOriValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 23</value>
+  </data>
+  <data name="txtReorientOriValue.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtReorientOriValue.ToolTip" xml:space="preserve">
+    <value>Reference orientation value</value>
+  </data>
+  <data name="&gt;&gt;txtReorientOriValue.Name" xml:space="preserve">
+    <value>txtReorientOriValue</value>
+  </data>
+  <data name="&gt;&gt;txtReorientOriValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtReorientOriValue.Parent" xml:space="preserve">
+    <value>pagReorient</value>
+  </data>
+  <data name="&gt;&gt;txtReorientOriValue.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblReorientOriValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReorientOriValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 23</value>
+  </data>
+  <data name="lblReorientOriValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 15</value>
+  </data>
+  <data name="lblReorientOriValue.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblReorientOriValue.Text" xml:space="preserve">
+    <value>Reference orientation value</value>
+  </data>
+  <data name="&gt;&gt;lblReorientOriValue.Name" xml:space="preserve">
+    <value>lblReorientOriValue</value>
+  </data>
+  <data name="&gt;&gt;lblReorientOriValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReorientOriValue.Parent" xml:space="preserve">
+    <value>pagReorient</value>
+  </data>
+  <data name="&gt;&gt;lblReorientOriValue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtReorientRZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 70</value>
+  </data>
+  <data name="txtReorientRZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
+  </data>
+  <data name="txtReorientRZ.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtReorientRZ.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientRZ.ToolTip" xml:space="preserve">
+    <value>RZ Angle value</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRZ.Name" xml:space="preserve">
+    <value>txtReorientRZ</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRZ.Parent" xml:space="preserve">
+    <value>frmReorientEuler</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientRY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 45</value>
+  </data>
+  <data name="txtReorientRY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
+  </data>
+  <data name="txtReorientRY.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtReorientRY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientRY.ToolTip" xml:space="preserve">
+    <value>RY Angle value</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRY.Name" xml:space="preserve">
+    <value>txtReorientRY</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRY.Parent" xml:space="preserve">
+    <value>frmReorientEuler</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtReorientRX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="txtReorientRX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
+  </data>
+  <data name="txtReorientRX.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtReorientRX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientRX.ToolTip" xml:space="preserve">
+    <value>RX Angle value</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRX.Name" xml:space="preserve">
+    <value>txtReorientRX</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRX.Parent" xml:space="preserve">
+    <value>frmReorientEuler</value>
+  </data>
+  <data name="&gt;&gt;txtReorientRX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblReorientRZ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReorientRZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 73</value>
+  </data>
+  <data name="lblReorientRZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="lblReorientRZ.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblReorientRZ.Text" xml:space="preserve">
+    <value>RZ:</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRZ.Name" xml:space="preserve">
+    <value>lblReorientRZ</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRZ.Parent" xml:space="preserve">
+    <value>frmReorientEuler</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRZ.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblReorientRY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReorientRY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 48</value>
+  </data>
+  <data name="lblReorientRY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="lblReorientRY.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblReorientRY.Text" xml:space="preserve">
+    <value>RY:</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRY.Name" xml:space="preserve">
+    <value>lblReorientRY</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRY.Parent" xml:space="preserve">
+    <value>frmReorientEuler</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRY.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblReorientRX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReorientRX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 23</value>
+  </data>
+  <data name="lblReorientRX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="lblReorientRX.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblReorientRX.Text" xml:space="preserve">
+    <value>RX:</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRX.Name" xml:space="preserve">
+    <value>lblReorientRX</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRX.Parent" xml:space="preserve">
+    <value>frmReorientEuler</value>
+  </data>
+  <data name="&gt;&gt;lblReorientRX.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="frmReorientEuler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 195</value>
+  </data>
+  <data name="frmReorientEuler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 97</value>
+  </data>
+  <data name="frmReorientEuler.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="frmReorientEuler.Text" xml:space="preserve">
+    <value>Euler angles</value>
+  </data>
+  <data name="&gt;&gt;frmReorientEuler.Name" xml:space="preserve">
+    <value>frmReorientEuler</value>
+  </data>
+  <data name="&gt;&gt;frmReorientEuler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frmReorientEuler.Parent" xml:space="preserve">
+    <value>pagReorient</value>
+  </data>
+  <data name="&gt;&gt;frmReorientEuler.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 165</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.Text" xml:space="preserve">
+    <value>&lt;&lt; Copy to Modification</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="cmdReorientCopy2Modif.ToolTip" xml:space="preserve">
+    <value>Copy the quaternion values to the Modification sheet</value>
+  </data>
+  <data name="&gt;&gt;cmdReorientCopy2Modif.Name" xml:space="preserve">
+    <value>cmdReorientCopy2Modif</value>
+  </data>
+  <data name="&gt;&gt;cmdReorientCopy2Modif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdReorientCopy2Modif.Parent" xml:space="preserve">
+    <value>pagReorient</value>
+  </data>
+  <data name="&gt;&gt;cmdReorientCopy2Modif.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmdReorientGetFromModif.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cmdReorientGetFromModif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 135</value>
+  </data>
+  <data name="cmdReorientGetFromModif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="cmdReorientGetFromModif.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdReorientGetFromModif.Text" xml:space="preserve">
+    <value>&gt;&gt; Recover from Modification</value>
+  </data>
+  <data name="cmdReorientGetFromModif.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="cmdReorientGetFromModif.ToolTip" xml:space="preserve">
+    <value>Retrieves the quaternion values from the Modification page</value>
+  </data>
+  <data name="&gt;&gt;cmdReorientGetFromModif.Name" xml:space="preserve">
+    <value>cmdReorientGetFromModif</value>
+  </data>
+  <data name="&gt;&gt;cmdReorientGetFromModif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdReorientGetFromModif.Parent" xml:space="preserve">
+    <value>pagReorient</value>
+  </data>
+  <data name="&gt;&gt;cmdReorientGetFromModif.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblReorientQ4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReorientQ4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 98</value>
+  </data>
+  <data name="lblReorientQ4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 15</value>
+  </data>
+  <data name="lblReorientQ4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblReorientQ4.Text" xml:space="preserve">
+    <value>Q4:</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ4.Name" xml:space="preserve">
+    <value>lblReorientQ4</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ4.Parent" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblReorientQ3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReorientQ3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 73</value>
+  </data>
+  <data name="lblReorientQ3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 15</value>
+  </data>
+  <data name="lblReorientQ3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblReorientQ3.Text" xml:space="preserve">
+    <value>Q3:</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ3.Name" xml:space="preserve">
+    <value>lblReorientQ3</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ3.Parent" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblReorientQ2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReorientQ2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 48</value>
+  </data>
+  <data name="lblReorientQ2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 15</value>
+  </data>
+  <data name="lblReorientQ2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblReorientQ2.Text" xml:space="preserve">
+    <value>Q2:</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ2.Name" xml:space="preserve">
+    <value>lblReorientQ2</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ2.Parent" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblReorientQ1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReorientQ1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 23</value>
+  </data>
+  <data name="lblReorientQ1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 15</value>
+  </data>
+  <data name="lblReorientQ1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblReorientQ1.Text" xml:space="preserve">
+    <value>Q1:</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ1.Name" xml:space="preserve">
+    <value>lblReorientQ1</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ1.Parent" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;lblReorientQ1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="imgReorientQuatOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="imgReorientQuatOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 98</value>
+  </data>
+  <data name="imgReorientQuatOK.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;imgReorientQuatOK.Name" xml:space="preserve">
+    <value>imgReorientQuatOK</value>
+  </data>
+  <data name="&gt;&gt;imgReorientQuatOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgReorientQuatOK.Parent" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;imgReorientQuatOK.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtReorientQ4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 95</value>
+  </data>
+  <data name="txtReorientQ4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="txtReorientQ4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtReorientQ4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ4.ToolTip" xml:space="preserve">
+    <value>Rotation value Q4</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ4.Name" xml:space="preserve">
+    <value>txtReorientQ4</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ4.Parent" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtReorientQ3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 70</value>
+  </data>
+  <data name="txtReorientQ3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="txtReorientQ3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtReorientQ3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ3.ToolTip" xml:space="preserve">
+    <value>Rotation value Q3</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ3.Name" xml:space="preserve">
+    <value>txtReorientQ3</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ3.Parent" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtReorientQ2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 45</value>
+  </data>
+  <data name="txtReorientQ2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="txtReorientQ2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtReorientQ2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReorientQ2.ToolTip" xml:space="preserve">
+    <value>Rotation value Q2</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ2.Name" xml:space="preserve">
+    <value>txtReorientQ2</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ2.Parent" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtReorientQ1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="txtReorientQ1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="txtReorientQ1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtReorientQ1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtReorientQ1.ToolTip" xml:space="preserve">
+    <value>Rotation value Q1</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ1.Name" xml:space="preserve">
+    <value>txtReorientQ1</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ1.Parent" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;txtReorientQ1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="frmReorientQuat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="frmReorientQuat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 123</value>
+  </data>
+  <data name="frmReorientQuat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="frmReorientQuat.Text" xml:space="preserve">
+    <value>Rotations</value>
+  </data>
+  <data name="&gt;&gt;frmReorientQuat.Name" xml:space="preserve">
+    <value>frmReorientQuat</value>
+  </data>
+  <data name="&gt;&gt;frmReorientQuat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frmReorientQuat.Parent" xml:space="preserve">
+    <value>pagReorient</value>
+  </data>
+  <data name="&gt;&gt;frmReorientQuat.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pagReorient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="pagReorient.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pagReorient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 292</value>
+  </data>
+  <data name="pagReorient.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pagReorient.Text" xml:space="preserve">
+    <value>Reorientation</value>
+  </data>
+  <data name="pagReorient.ToolTipText" xml:space="preserve">
+    <value>Allows you to set an orientation in degrees to or from quaternions</value>
+  </data>
+  <data name="&gt;&gt;pagReorient.Name" xml:space="preserve">
+    <value>pagReorient</value>
+  </data>
+  <data name="&gt;&gt;pagReorient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pagReorient.Parent" xml:space="preserve">
+    <value>mltpChoix</value>
+  </data>
+  <data name="&gt;&gt;pagReorient.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdDecod.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cmdDecod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="cmdDecod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 286</value>
+  </data>
+  <data name="cmdDecod.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdDecod.Text" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+  <data name="cmdDecod.ToolTip" xml:space="preserve">
+    <value>Allows you to decode a RAPID file.
+Ctrl click to decode a directory.
+Drop the file or directories to be decoded.</value>
+  </data>
+  <data name="&gt;&gt;cmdDecod.Name" xml:space="preserve">
+    <value>cmdDecod</value>
+  </data>
+  <data name="&gt;&gt;cmdDecod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDecod.Parent" xml:space="preserve">
+    <value>pagDecod</value>
+  </data>
+  <data name="&gt;&gt;cmdDecod.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagDecod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="pagDecod.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pagDecod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 292</value>
+  </data>
+  <data name="pagDecod.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pagDecod.Text" xml:space="preserve">
+    <value>Decoding</value>
+  </data>
+  <data name="pagDecod.ToolTipText" xml:space="preserve">
+    <value>Allows you to decode a file.</value>
+  </data>
+  <data name="&gt;&gt;pagDecod.Name" xml:space="preserve">
+    <value>pagDecod</value>
+  </data>
+  <data name="&gt;&gt;pagDecod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pagDecod.Parent" xml:space="preserve">
+    <value>mltpChoix</value>
+  </data>
+  <data name="&gt;&gt;pagDecod.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblEncodeVers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEncodeVers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 9</value>
+  </data>
+  <data name="lblEncodeVers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="lblEncodeVers.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblEncodeVers.Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="lblEncodeVers.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblEncodeVers.Name" xml:space="preserve">
+    <value>lblEncodeVers</value>
+  </data>
+  <data name="&gt;&gt;lblEncodeVers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEncodeVers.Parent" xml:space="preserve">
+    <value>pagEncod</value>
+  </data>
+  <data name="&gt;&gt;lblEncodeVers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbEncodeVers.Items" xml:space="preserve">
+    <value>FE=254=þ</value>
+  </data>
+  <data name="cbEncodeVers.Items1" xml:space="preserve">
+    <value>FD=253=ý</value>
+  </data>
+  <data name="cbEncodeVers.Items2" xml:space="preserve">
+    <value>FC=252=ü</value>
+  </data>
+  <data name="cbEncodeVers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 6</value>
+  </data>
+  <data name="cbEncodeVers.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbEncodeVers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="cbEncodeVers.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cbEncodeVers.ToolTip" xml:space="preserve">
+    <value>Encoding version. Determines the first byte of the file.</value>
+  </data>
+  <data name="&gt;&gt;cbEncodeVers.Name" xml:space="preserve">
+    <value>cbEncodeVers</value>
+  </data>
+  <data name="&gt;&gt;cbEncodeVers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbEncodeVers.Parent" xml:space="preserve">
+    <value>pagEncod</value>
+  </data>
+  <data name="&gt;&gt;cbEncodeVers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdEncod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="cmdEncod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 256</value>
+  </data>
+  <data name="cmdEncod.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdEncod.Text" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="cmdEncod.ToolTip" xml:space="preserve">
+    <value>Allows you to encode a RAPID file.
+Drop the file to encode.</value>
+  </data>
+  <data name="&gt;&gt;cmdEncod.Name" xml:space="preserve">
+    <value>cmdEncod</value>
+  </data>
+  <data name="&gt;&gt;cmdEncod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdEncod.Parent" xml:space="preserve">
+    <value>pagEncod</value>
+  </data>
+  <data name="&gt;&gt;cmdEncod.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pagEncod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="pagEncod.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="pagEncod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 292</value>
+  </data>
+  <data name="pagEncod.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pagEncod.Text" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="&gt;&gt;pagEncod.Name" xml:space="preserve">
+    <value>pagEncod</value>
+  </data>
+  <data name="&gt;&gt;pagEncod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pagEncod.Parent" xml:space="preserve">
+    <value>mltpChoix</value>
+  </data>
+  <data name="&gt;&gt;pagEncod.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mltpChoix.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mltpChoix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mltpChoix.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>316, 297</value>
+  </data>
+  <data name="mltpChoix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 320</value>
+  </data>
+  <data name="mltpChoix.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mltpChoix.Name" xml:space="preserve">
+    <value>mltpChoix</value>
+  </data>
+  <data name="&gt;&gt;mltpChoix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mltpChoix.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mltpChoix.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="cmnuLBPoints.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>102, 18</value>
+  </metadata>
+  <data name="cmnuLBPointsCopier.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="cmnuLBPointsCopier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="cmnuLBPointsCopier.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cmnuLBPointsCopier.ToolTipText" xml:space="preserve">
+    <value>Copy the list to the clipboard</value>
+  </data>
+  <data name="cmnuLBPointsColler.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+V</value>
+  </data>
+  <data name="cmnuLBPointsColler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="cmnuLBPointsColler.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="cmnuLBPointsColler.ToolTipText" xml:space="preserve">
+    <value>Paste the clipboard in the list</value>
+  </data>
+  <data name="cmnuLBPointsEffacer.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Supprimer</value>
+  </data>
+  <data name="cmnuLBPointsEffacer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="cmnuLBPointsEffacer.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="cmnuLBPointsEffacer.ToolTipText" xml:space="preserve">
+    <value>Clear list</value>
+  </data>
+  <data name="cmnuLBPointsEffacerTout.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Majuscule+Supprimer</value>
+  </data>
+  <data name="cmnuLBPointsEffacerTout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="cmnuLBPointsEffacerTout.Text" xml:space="preserve">
+    <value>Delete all</value>
+  </data>
+  <data name="cmnuLBPointsEffacerTout.ToolTipText" xml:space="preserve">
+    <value>Clear all controls</value>
+  </data>
+  <data name="cmnuLBPointsSelRef.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+R</value>
+  </data>
+  <data name="cmnuLBPointsSelRef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="cmnuLBPointsSelRef.Text" xml:space="preserve">
+    <value>Reference selection</value>
+  </data>
+  <data name="cmnuLBPointsSelRef.ToolTipText" xml:space="preserve">
+    <value>Copies the selection as a reference target</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 6</value>
+  </data>
+  <data name="cmnuLBPointsSelTout.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+A</value>
+  </data>
+  <data name="cmnuLBPointsSelTout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="cmnuLBPointsSelTout.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="cmnuLBPointsSelAucun.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="cmnuLBPointsSelAucun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="cmnuLBPointsSelAucun.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="cmnuLBPointsSelInverser.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="cmnuLBPointsSelInverser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="cmnuLBPointsSelInverser.Text" xml:space="preserve">
+    <value>Inverse</value>
+  </data>
+  <data name="cmnuLBPointsSel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="cmnuLBPointsSel.Text" xml:space="preserve">
+    <value>Selections</value>
+  </data>
+  <data name="cmnuLBPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 142</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPoints.Name" xml:space="preserve">
+    <value>cmnuLBPoints</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clbPoints.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="clbPoints.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clbPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 320</value>
+  </data>
+  <data name="clbPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 132</value>
+  </data>
+  <data name="clbPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;clbPoints.Name" xml:space="preserve">
+    <value>clbPoints</value>
+  </data>
+  <data name="&gt;&gt;clbPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clbPoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;clbPoints.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="ofdOpenFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>223, 18</value>
+  </metadata>
+  <metadata name="sfdSaveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>355, 18</value>
+  </metadata>
+  <metadata name="fbdFolderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>493, 18</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>355, 452</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAPDwAAAEAIABIOgAAFgAAACgAAAA8AAAAeAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////3////+v//8vH///X2///////////3//v/
+        +P/0//v/9v/w//v/9f/4//L/9//z//3/+////v//+vL8///4///4//H/8v/z//H+/P/z////8////+/9
+        +f/x/u7/+P/s//T0///7/v//+//8//T48//7/P////3///////////f/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////6/////T/+P75//3//////v////n+///7
+        ///59///+/P///v0///69///9fb///X9/f/0//X/+f/x//r/8P//9f////b////9+f////L////0////
+        +///+P////T///7y+P//+fX////y////9/////7//fv///T3+//6////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////7/8f////T/+v7y////9////fj/+fP0///8
+        ////9//////d////4v////D////5//3////6////9v///+77+f/6//j/+v/+//X7///u9P//7/L///X2
+        ///6+fv/+vj3///6/////vz///7t////8v////v///3///n8///z/v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////j4////+////ff4////+f/+//j/9v7z//3/
+        9f////L////1///8+f//+v////b///Xw///v8f//5PD//8jZ8/+Ou///e6X+/1p87f83Vtf/M1DR/01q
+        3f9riuf/eZrp/8vP///l6f//+/7////++f/9+PX///7///v+///2/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////T2///9+f////z5/////P/w/f//1u7//+D1
+        ///Y6Pj/xOb//7HO+/+itv3/hZT4/1xp6f9OXPD/RVj7/zBH8P8YUPX/HVf2/xhY7P8NT93/CkjU/wxF
+        1/8LO9f/Ai3Q/zRbxf90luL/y+X///H9///6+fv//Pf4/////v////v/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////T//P////D////u//v///+70///f6T5/3eX
+        //9mfer/JV///y5n//81cf//K2vv/xth3P8dbeL/JoLz/yaI+P87d/n/N3L3/ypn7f8gWuL/IFjd/yxf
+        3f81Z93/O2vb/wM8zf8gVL//gqfh/+X4///9/v///fj1///9+P////n/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////b//v////D////w/+30//+BpfH/LGTp/yRa
+        +/8ZRuv/GWby/yZz8v8ocuL/JG/T/yt22v8reOb/HGzp/xJj6v8jUNX/HEXd/xo77P8cNvX/HjXv/x86
+        2P8kRcD/Kk+x/yNY7v8fTbz/bo/H/97t/f////7///36////+//9/vz/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////j1////+f////z//+bt//9pmPP/E1/t/xtp
+        //8gZv//N1z//zFU6v8ZObr/GTeo/0Bbzv9MZev/L0Xk/xYt3f8jT+r/F0Tb/w49zv8OPsb/DTy8/w04
+        r/8XPK7/I0a0/yJL1v85W7//l67c//T8//////v///j1///+///4/v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////2////+v//9Pz//9vq//+ClO3/b4r9/2qX
+        /v9npPT/X4zn/yU/2f8XKuX/HTva/ypX1/9Jdvv/PGnw/xVHv/8sRfP/M0jf/x8ys/8TJaj/Hi/A/xou
+        tf8oQKD/VnCs/6ulzv+hoMD/2+Dv//T/+f/1/+v//f/w///++f//9///////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////P/8/+7/9//q/+z+9/+svNn/o7bj/529
+        2v+TwMT/h729/4Cm1v9AX6r/G0KG/wAkcf8CKZ3/Qm3y/zdq5P82Vt3/EC6f/wARcf8HHoT/ECia/wYg
+        jP9CXKj/q8by/+Pv///l8f3/7/j8//b6+////v//9vL3///+/v////z/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////v//v/4/+z/+v/m//3/7v/i5N7/4eLg/93i
+        zf/O26//rM6p/73WyP+btKr/k7Kr/2iIrP8rSbL/I03Q/wA5q/8XPLT/DCyV/w0nhf8TKpD/CiOX/wEb
+        jf8ZM43/RVud/7nV5v/q////6vfv///9////9f////T///r6///4//T/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////2///69v////38/////v//9Pz///T8//3x
+        6//x6dL/29Pd/8W9xP/Ly7//yNPD/5uq0f9GWcz/BC62/w5TwP8AKrn/HkHH/zNM0P8fOMT/CCO6/w8r
+        xf8bMr7/EySj/2F8vP/D3Pb/8v/6////+f//9/////X///r+///v//D/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////2////9P////v////7////+f////n////6
+        ///39P3///j///rq+/////7/7vn3/52t4v8wRsj/BC/E/zJ48/8GQNX/Fkba/zBY7f8wWPT/E0Hj/wUz
+        2P8TOtz/JEPg/zhHwf9sfcb/7/z///r/8P////f/9O/w//r////w//j/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////+P///vb////5//r99P/6//z/9P/9//T/
+        ///z/v//+//t//X//v/J2eX/zOv//5W6/v8yWeP/JFj4/xVc6f8eauz/FVbb/xZQ2P8mYez/JWny/w5T
+        3v8AO8f/ADPD/woUnf8aJoz/kp3R//b////9//L////x/+307f/6/f//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////9P/9//P////3//P66//7//L/9f/v//r/
+        /P/6////3vzx/4adyv8lQZX/NWS6/zdy2f8fXOj/OHj//yRs+f8wffz/KGjv/wxF0P8JRc3/JG3t/y15
+        9/8cYOP/GE/a/wAIY/8AA2j/IyiF/7zB+P/l8fX/+//y/+7x6P//+f//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////j////5/P//+/3///Ly8v////j//fvx///7
+        /P//9P//wNj//05c3v8nO+z/NmX//ydv+f8SXuz/D1zo/yNz7v8aWfH/J1v7/x9K7f8cTen/KGf3/xxf
+        6v8UT+H/Ml/8/xxAZv8FFmz/BgeB/1FQsv/m8P//9f/1////+f//7///////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////rsfz/yVi1v8LXP//Jmn//zNq6/8vcfj/Dlrw/xxi9v8nas3/JFfj/zBV8/8OL7r/Ei2z/zFQ
+        6f8aT+X/FGTh/ys8f/8ABTn/CRR2/wwnxf9kifn/5v////r/5P/4+P//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////rsr5/zx77v8dbv//H1/z/x9X1P8mae7/FF/x/x9l9P8bYvn/K2f//zBl+/8PQ63/AzCS/wkv
+        tf8CMs3/D07f/zBKjP9GUHL/HyZl/wwjp/8IKaT/qb/i////+P//9P//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////tdD8/06I8f82f///RX///02A7v9Kiv//Nn39/0N/+/8RYfr/HF3//wU9zP8EPaD/GU2r/xxJ
+        yf8kU+T/K2fp/ydNn/8fLkj/dHqX/xQqk/8MLbj/d4rb///5////9fb/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////2uz//2qX6P9RiPf/f6j//5i8//+Btf//ap///4Co//9suP//Z53//zFW0P88Y83/U3/y/z5s
+        +f9Be/z/OoPf/yJZ0v8AACz/dH+d/xEwjf8aQ9X/S2HR//Dv//////L/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9/v//5iy4f94l9z/nq/g/7HD6P+Yuu//jq7p/6286v+RudX/pbjx/4GJz/+DmeD/aZL1/ytg
+        7f84d///PIft/xxe/f8WOJz/PFWb/ztnzP8PQcn/X3nj/+nx///9/+n/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////4/+35///i7v//8e79//L2+//e9f//4PH///nz/v/x+P////f///zz///m+f//ibry/yFc
+        4f8dW/3/G1zt/xll//9Bbvv/P2bg/y1l1v8ZSrD/uMn//+zz///x/+z/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+vTn//T7///2+v/////7////+P/s////8/3////58v/1+vv///f9///8+P/w//7/hLXt/ydk
+        8P8nYv//Ilvy/y5+9f8vZPr/Nmb//wAnnf9Te7b/9vL///ry8//t//z/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////4//T8///u8f////3z////9f/p/f//7/v/////9P/x/+3//vv2///6///m7///aJHu/xlQ
+        7f8oYv//LWre/y9+zf8ybPv/Fkv5/xVTyf/T8f/////y///69P/o9v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////m///9////9P//9vH///r/+//5/+7/+fnz///3///i/P////f1////+f+HsvH/Elvz/xhh
+        +f8iaOv/H2L//w1l//9Mg+z/o7Tb/+Lj5//1/P//8/3///v+/////vj/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////7///////7+f//+/v///3////+//v//fr2/////P//9f3/+v/3/4mk5/8bVer/EGnz/xNd
+        8f8pXv//O330/xpi6/90ofj/1+L////9/P/5/v3/9P3///v+//////v/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////n///z9+/////H////1///7////+v/////+////9P/9/P//gJ/q/w5Iyf8WVur/IVz4/wlM
+        5P8mcfb/Nn39/0p83P+sxv//+vv/////+f/4+fX/9/3///v+///++vn/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+vz///v9/f////f////1//v38v///v//+P3//+Tu+P92pPH/BD3W/xZS5P84Xs7/IDzQ/y1w
+        //8sjP//FmPi/6G78f/c5/////7////98P/7+fH/+/7///v+///39vr/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9//3//v7////+v////7///7/8f/0//v/0+b//5Gj6v8FSOX/AU/X/yVU6/8zSdf/NGne/yJ2
+        //8kbf//dqve/+zz///5+/////75///98v////j//f////v+///7+///////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9v/x//r7////8v////n///j/+f/Y9///hqz0/zFV1/8QTOX/KWX0/wo/z/8fW/T/MIP//wtg
+        7P9jj9z////7/////P/+//v////7/////P////z///38//38/v/9/v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+P/5//3+/P//+fr///7//+Px//+Vt/L/Om/k/wpI6v8eWN//OWP//x5e5f8Mae7/Gmr//2aa
+        9P/f9PL///z/////8f/6/vj/9/////j////8/v7//vr5//z6+v/8/v//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9/z/////+P///+3////5/8jU/v9YeeD/Ek7i/xVl//8eWv//EUzK/ylq9P8fb///TZHe/8zd
+        8P/99///6vz/////8v/6//v/7/3//+/5///7/v/////+/////v/+/f//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////6v////r67P//9P/////z/1iT2f8VU///KWz9/y1k7/8MY/P/GV3k/zuA//8eae3/jb3/////
+        +//88d3/8fz/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////4////+v/69///pcXw/0CC6/8vdv//H2Dx/yxg6P8FVOH/MXn//ytz9/9QjvT/yuz///j5
+        7/////X/9Pf/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////no//z7//++4///Uor3/zh4//82gfv/Jmj3/zJo8f8eYuv/LXr//yZt7P+Bquj/8f7///n+
+        7/////7/+vT/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////nw//38//+a0O//Rnr//0Zo5P8dWZ//MHH//ytq+/8ybfL/EWH6/1CV//9shKL/6ufL//7/
+        7//3/f////n/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////vz////8//+l1Or/PV7T/ygmeP8BJE//E1bp/xJV7v8XUc//NYL//ydn3f+SpMH/j4dp//Lz
+        3//r7/T///z/////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////6/j////38P/E4P//HzyX/wgAL/8nOnf/EVPo/zVs9f8jYd3/KG34/xVPxv99lMz/m5mY/2Fd
+        S////vr/+Pf///7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////7P//////6v/D0///CzuT/xEXTP9OYtf/Glzx/2eH6/9Bh///G1fT/ws8tv9hheP/bnmf/3Bk
+        WP//9uj/7fb///7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////7P/5////4v+Sn/v/ADaX/wkrbf8pRen/ADHE/0xVnv9Ilf//Fky//y9b1v8qVtH/IjZ3///w
+        5////+3/7Pz///7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////9vj//+32//+Lndr/BSB6/y9Vwf8aRrn/DTqt/xVDs/8tR9H/HkXF/zFg2f8kScH/Jjqq/4SN
+        3f/S4/7/3Pnp/+/0///4//7/8f3h//v/4v////L///r4///7+f////j/9vfz///8/f//+v//+vn//+z8
+        ///r//D/+v/w////9f/+/v7/9/f3//7+/v/6+vr/9/f3/////////////f39////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+v/p/+/79f+swdz/Cilo/zxjxf9TfPr/SnX//zFb8P8mW8P/IV3P/xZU2P8FNs7/GzfY/zhE
+        5P9BSdz/Wmbu/4KYu/+qvPn/uMn//6nC//+93PX/3fj8/+32///69f//6v/8//b//P/68vL///b2////
+        /P/9//z///3///7y/////////v7+/////////////v7+///////+/v7/+fn5////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////u/+rt3v/q+v//YX6d/zFWlP+Su///KVDE/ydOz/8oRvH/DjTu/yVS//8uYf//Bzu+/wAQ
+        eP8AFHr/Fkm3/xxJzv8KN7b/HUvB/x1Juv8vV8H/S3PM/054v/9wm9T/c6LI/7LJ7//09f////v////9
+        ///59f//+PT///z2/////////f39//z8/P////////////7+/v//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////L////6///6/f//wdTZ/xo1P/98ma7/wt7//42o1P9phtH/OlnA/yxUyv9hkfD/gLnt/zZt
+        lP8AJmj/JlS5/wNG9/8ANs7/F1HS/y1b3v8hRNr/CzXO/wM+w/8cadf/JFXJ/zBOy/88Ubr/WHCy/5Or
+        2f/V5///8fv///v/8P/+/v7///////j4+P/7+/v//v7+//r6+v//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////8OP9///6///w8e/////0//n/6P94fmf/d3ho/5uZjv+NnXv/OUpH/2yBl//R6vr/6P///+f+
+        ///K2v//n6f//1aP3v9Ddur/IE3q/xRG7P8MRd7/D0rW/yFW7P8WQ+j/DUPQ/xI/5/8NQeL/AEC7/wA/
+        rP8zX8r/oLfv//P/9//x8fH///////39/f////////////j4+P//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////+//5/+305f////H//v7m////7v////L/7djQ/9a9u//VuMH/3cfa///y/////P/////u////
+        7f/8//b/8vj///r////H3P//XYnm/yxr9f8UWfb/DUXg/zlb6v9EWNv/I2ne/xlW9P8XW/z/GnDy/xFh
+        7v8UQu3/PVbU/3GKsv/FxcX/+vr6//n5+f////////////r6+v///////Pz8////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////8frm//3/9P/v8+f////5/+rn4//99/j///3////8////+v////f6/////////v//8uTq///5
+        /////P//+Pz////9///7//v/5v/+/8Pn//+Gqv//NFjh/xlByf8uXtT/ClbO/xVI5P8XRNH/FlKs/yRc
+        zf81V///K0jf/w8+gv+pqan/9fX1//j4+P/9/f3///////n5+f///////f39////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////z////7///++v//+/v///j8///z////3vLt/+f/9v/+/f//8v3z/+z/7f/x/ff///v////4
+        ///o7fD/8f/3/+D6///4/v3////y///43P////X/vt///yls6/8AOPb/AUPi/z1d//9BT9H/DCRY/w0n
+        af8/U+D/K1XY/wAsYP+3t7f////////////8/Pz///////T09P///////v7+////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////5/////P////38//n9+P/4////8Pn//9Te9v+2v+D/ZInd/0p75/8gY+7/AU3t/wBH
+        5P8lXdr/YoPZ/46g2//v7+//9vb2//7+/v////////////39/f/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////4/////v///v/9//j89//5//7/9v7///P7///o7f//8Pf//87e//+bt/f/dJfn/3OT
+        3/+cseX/29/3///+///29vb/+/v7//////////////////39/f/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////z6/////v///f/+//b99v/0+vX/+v////j+///4+//////t////9f/9////9fn///T2
+        ///8+vn////x////6f/+/v7///////////////////////39/f/+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////f6///7////+//+//r/+v/4/Pb/+f34//r8/P/4+vv/+P/0//r/+P/7//z/+//+//v/
+        ///5//3/9Pz1/+757/////////////////////////////7+/v//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////b7/v/6/v//+//+//3//P////v////7/////P///vr/8f7///T////0+/7/9vr7//f8
+        ///z/f//7/3//+n8/////////////////////////v7+//7+/v//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////3////9////+vz8//v8+v/+//3////+/////v////7/+fj6///7/P////v////5////
+        +f////7///7///X4///+/v7//v7+//7+/v/+/v7//v7+////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////Pv9//v6/P/7+vz/+/r8//v6/P/8+/3////+///++///+/f///rx///6
+        8f///PX////7/////P///////v7+//7+/v//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////35+P//+vv///7////9/////f///f3///39///9/v//9/z///j+///4/v//+P7///j/
+        ///7/v///f/////+/////////////////////////////////////////v7+////////////////////
+        //8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>371, 370</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ABB RAPID Program Helper</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value>ABB RAPID Program Helper</value>
+  </data>
+  <data name="&gt;&gt;ttToolTip.Name" xml:space="preserve">
+    <value>ttToolTip</value>
+  </data>
+  <data name="&gt;&gt;ttToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsCopier.Name" xml:space="preserve">
+    <value>cmnuLBPointsCopier</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsCopier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsColler.Name" xml:space="preserve">
+    <value>cmnuLBPointsColler</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsColler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsEffacer.Name" xml:space="preserve">
+    <value>cmnuLBPointsEffacer</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsEffacer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsEffacerTout.Name" xml:space="preserve">
+    <value>cmnuLBPointsEffacerTout</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsEffacerTout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSelRef.Name" xml:space="preserve">
+    <value>cmnuLBPointsSelRef</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSelRef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSel.Name" xml:space="preserve">
+    <value>cmnuLBPointsSel</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSelTout.Name" xml:space="preserve">
+    <value>cmnuLBPointsSelTout</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSelTout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSelAucun.Name" xml:space="preserve">
+    <value>cmnuLBPointsSelAucun</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSelAucun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSelInverser.Name" xml:space="preserve">
+    <value>cmnuLBPointsSelInverser</value>
+  </data>
+  <data name="&gt;&gt;cmnuLBPointsSelInverser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ofdOpenFileDialog.Name" xml:space="preserve">
+    <value>ofdOpenFileDialog</value>
+  </data>
+  <data name="&gt;&gt;ofdOpenFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sfdSaveFileDialog.Name" xml:space="preserve">
+    <value>sfdSaveFileDialog</value>
+  </data>
+  <data name="&gt;&gt;sfdSaveFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fbdFolderBrowserDialog.Name" xml:space="preserve">
+    <value>fbdFolderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;fbdFolderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clbPoints.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagModif.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagReorient.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagDecod.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagEncod.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="mltpChoix.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="frmReorientQuat.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblRobValue.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="cmnuLBPoints.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="fraRobConf.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="fraTrans.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="fraDecalTrans.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientOriValue.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="frmReorientEuler.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientRX.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientRZ.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientRY.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="fraRot.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblReorientQ4.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="pagDecal.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="lblEncodeVers.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="imgReorientQuatOK.ToolTip" xml:space="preserve">
+    <value> </value>
+  </data>
+</root>
