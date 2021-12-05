@@ -2,7 +2,10 @@
 # ABB_RAPID_Prog_Helper
 To help you editing ABB RAPID Program
 
-https://user-images.githubusercontent.com/5203213/144754215-3dbfd5d3-d03f-4027-8a66-b155065f376f.mp4
+https://user-images.githubusercontent.com/5203213/144834747-b673abd6-f436-42e3-bc28-da788ab51205.mp4
+
+[Install it](https://htmlpreview.github.io/?https://raw.githubusercontent.com/DenisFR/ABB_RAPID_Prog_Helper/main/ABB_RAPID_Prog_Helper/bin/publish/Publish.html)
+
 
 If you clone this repo in a network folder, try this:
 
@@ -11,3 +14,4 @@ If you clone this repo in a network folder, try this:
     Click Advanced button
     Enter file://[computer name]
     Make sure 'Require server verification...' is unticked
+    

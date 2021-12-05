@@ -1,0 +1,4 @@
+# To git not replace endline and cause hash mismatch
+*.application binary
+*.deploy binary
+*.manifest binary

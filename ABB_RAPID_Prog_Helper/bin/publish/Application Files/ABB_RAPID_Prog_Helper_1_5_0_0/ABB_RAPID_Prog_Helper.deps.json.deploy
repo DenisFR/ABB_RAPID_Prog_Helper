@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ABB_RAPID_Prog_Helper/1.0.0": {
+        "runtime": {
+          "ABB_RAPID_Prog_Helper.dll": {}
+        },
+        "resources": {
+          "en/ABB_RAPID_Prog_Helper.resources.dll": {
+            "locale": "en"
+          },
+          "fr/ABB_RAPID_Prog_Helper.resources.dll": {
+            "locale": "fr"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ABB_RAPID_Prog_Helper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
